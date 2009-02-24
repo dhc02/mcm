@@ -1,0 +1,58 @@
+<p>
+  <b>Title:</b>
+  <%=h @event.title %>
+</p>
+
+<p>
+  <b>Event Type:</b>
+  <%=h @event.event_type %>
+</p>
+
+<p>
+  <b>Teaser for Sidebar:</b>
+  <%= @event.teaser %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @event.body %>
+</p>
+
+<p>
+  <b>Public:</b>
+  <%=h @event.public %>
+</p>
+
+<p>
+  <b>Created by:</b>
+  <%=h @event.created_by %>
+</p>
+
+<p>
+  <b>Updated by:</b>
+  <%=h @event.updated_by %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%=h @event.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%=h @event.end_date %>
+</p>
+
+<p>
+  <b>Start time:</b>
+  <%=h @event.start_time.strftime("%I:%M%p") %>
+</p>
+
+<p>
+  <b>End time:</b>
+  <%=h @event.end_time.strftime("%I:%M%p") %>
+</p>
+
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>

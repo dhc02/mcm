@@ -1,0 +1,57 @@
+<%= javascript_include_tag :fckeditor %> 
+<h1>Editing event</h1>
+
+<% form_for(@event) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label "Event Type" %><br />
+    <%= f.text_field :event_type %>
+  </p>
+  <p>
+    <%= f.label "Teaser for Sidebar" %><br />
+    <%= fckeditor_textarea("event", "teaser", :toolbarSet => 'Simple', :width => '600px', :height => '200px') %>
+  </p>
+  <p>
+    <%= f.label "Full Description" %><br />
+    <%= fckeditor_textarea("event", "body", :toolbarSet => 'Simple', :width => '600px', :height => '400px') %>
+  </p>
+  <p>
+    <%= f.label :public %><br />
+    <%= f.check_box :public %>
+  </p>
+  <p>
+    <%= f.label :created_by %><br />
+    <%= f.text_field :created_by %>
+  </p>
+  <p>
+    <%= f.label :updated_by %><br />
+    <%= f.text_field :updated_by %>
+  </p>
+  <p>
+    <%= f.label :start_date %><br />
+    <%= f.date_select :start_date %>
+  </p>
+  <p>
+    <%= f.label :end_date %><br />
+    <%= f.date_select :end_date %>
+  </p>
+  <p>
+    <%= f.label :start_time %><br />
+    <%= f.time_select :start_time, :twelve_hour => true %>
+  </p>
+  <p>
+    <%= f.label :end_time %><br />
+    <%= f.time_select :end_time, :twelve_hour => true %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @event %> |
+<%= link_to 'Back', events_path %>
