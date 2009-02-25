@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
   });
   
   $("a.nav").click(function (){
-    var dest = $(this).attr("id");
+    var dest = $(this).attr("href");
     var link = "<a class='plus' href='#'>[+/-]</a>";
     $("#right_ > #content").slideUp("fast", function () {
       $(this).load(dest + " #right_ > #content", function () {
