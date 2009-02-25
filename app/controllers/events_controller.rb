@@ -4,7 +4,7 @@ class EventsController < ApplicationController
   def index
     @events = Event.find_future
     respond_to do |format|
-      format.html # index.html.erb
+      format.html { render :action => "index" }# index.html.erb
       format.xml  { render :xml => @events }
     end
   end
@@ -12,7 +12,7 @@ class EventsController < ApplicationController
   def admin
     @events = Event.find(:all)
     respond_to do |format|
-      format.html {render :action => "admin", :layout => false}# index.html.erb
+      format.html { render :action => "admin", :layout => false }# index.html.erb
     end
   end
   
