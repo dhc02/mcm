@@ -9486,3 +9486,25 @@ ActionController::RoutingError (No route matches "/facilities.html" with {:metho
     script/server:3
 
 Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing EventsController#index (for 127.0.0.1 at 2009-02-24 16:55:16) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZDQyY2ZkMTMwYjVkMjZhZmM3
+Mzc2YjlkMWE4ZmRhNTU=--e12abb1e8ca6e3a367c7fb3b1a6b0d3a01e7c9a4
+  Parameters: {"action"=>"index", "controller"=>"events"}
+  [4;36;1mEvent Load (0.008000)[0m   [0;1mSELECT * FROM "events" [0m
+Rendering template within layouts/events
+Rendering events/index
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.02700 (14%) | DB: 0.00800 (4%) | 200 OK [http://localhost/events]
+
+
+Processing EventsController#edit (for 127.0.0.1 at 2009-02-24 16:55:25) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZDQyY2ZkMTMwYjVkMjZhZmM3
+Mzc2YjlkMWE4ZmRhNTU=--e12abb1e8ca6e3a367c7fb3b1a6b0d3a01e7c9a4
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"events"}
+  [4;35;1mEvent Load (0.000000)[0m   [0mSELECT * FROM "events" WHERE ("events"."id" = 6) [0m
+Rendering template within layouts/events
+Rendering events/edit
+Completed in 0.07400 (13 reqs/sec) | Rendering: 0.03100 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/events/6/edit]
