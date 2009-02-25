@@ -2,11 +2,17 @@ class EventsController < ApplicationController
   # GET /events
   # GET /events.xml
   def index
-    @events = Event.find(:all)
-
+    @events = Event.find_future
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @events }
+    end
+  end
+  
+  def admin
+    @events = Event.find(:all)
+    respond_to do |format|
+      format.html {render :action => "admin", :layout => false}# index.html.erb
     end
   end
   
@@ -28,7 +34,7 @@ class EventsController < ApplicationController
     @event = Event.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html { render :action => "show", :layout => false } # show.html.erb
       format.xml  { render :xml => @event }
     end
   end
@@ -39,7 +45,7 @@ class EventsController < ApplicationController
     @event = Event.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html { render :action => "new", :layout => false }# new.html.erb
       format.xml  { render :xml => @event }
     end
   end
@@ -47,6 +53,10 @@ class EventsController < ApplicationController
   # GET /events/1/edit
   def edit
     @event = Event.find(params[:id])
+    
+    respond_to do |format|
+      format.html { render :action => "edit", :layout => false }
+    end
   end
 
   # POST /events

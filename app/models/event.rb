@@ -8,7 +8,7 @@ class Event < ActiveRecord::Base
   validates_presence_of :end_date
   
   def self.find_future
-    self.find(:all, :conditions => [ "end_date >= ?", Date.today.to_s], :limit => 4)
+    self.find(:all, :conditions => [ "end_date >= ?", Date.today.to_s], :limit => 4, :order => "start_date")
   end 
   
 end
