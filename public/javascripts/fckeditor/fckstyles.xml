@@ -61,44 +61,20 @@
 	<Style name="Superscript" element="sup" />
 	-->
 
-	<Style name="Title" element="h2" />
-	<Style name="Red Bold" element="span">
+	<!-- 	Matagorda Museum Styles -->
+	
+  <Style name="Heading" element="h2" />
+	<Style name="Subhead" element="h3" />
+	<Style name="Inline Red Bold" element="span">
 	  <Attribute name="class" value="style1" />
   </Style>
-	<Style name="Marker: Yellow" element="span">
-		<Style name="background-color" value="Yellow" />
-	</Style>
-	<Style name="Marker: Green" element="span">
-		<Style name="background-color" value="Lime" />
-	</Style>
+  
+  <!-- Other Styles -->
 
 	<Style name="Big" element="big" />
 	<Style name="Small" element="small" />
 	<Style name="Typewriter" element="tt" />
-
-	<Style name="Computer Code" element="code" />
-	<Style name="Keyboard Phrase" element="kbd" />
-	<Style name="Sample Text" element="samp" />
-	<Style name="Variable" element="var" />
-
-	<Style name="Deleted Text" element="del" />
-	<Style name="Inserted Text" element="ins" />
-
-	<Style name="Cited Work" element="cite" />
 	<Style name="Inline Quotation" element="q" />
-
-	<Style name="Language: RTL" element="span">
-		<Attribute name="dir" value="rtl" />
-	</Style>
-	<Style name="Language: LTR" element="span">
-		<Attribute name="dir" value="ltr" />
-	</Style>
-	<Style name="Language: RTL Strong" element="bdo">
-		<Attribute name="dir" value="rtl" />
-	</Style>
-	<Style name="Language: LTR Strong" element="bdo">
-		<Attribute name="dir" value="ltr" />
-	</Style>
 
 	<!-- Object Styles -->
 

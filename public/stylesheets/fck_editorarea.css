@@ -1,0 +1,73 @@
+.style1 {
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0px;
+}
+
+h2 {
+	font: 29px/24px "Calisto MT";
+	color: #336699;
+	font-weight: normal;
+	display: block;
+	letter-spacing: -1px;
+	word-spacing: 0em;
+	text-indent: 0px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+h3 {
+  color: #CC0000;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0px;
+	padding: 0 0 0 10px;
+}
+
+
+p {
+	background: no-repeat;
+	color: #333333;
+	padding: 0 0 0 10px;
+	width: 535px;
+	display: block;
+	font: 12px/20px Tahoma;
+	margin-top: 3px;
+	margin-right: 0;
+	margin-bottom: 0;
+	letter-spacing: 0px;
+}
+
+ol {
+	background: no-repeat;
+	color: #333333;
+	display: block;
+	width: 450px;
+	font: 12px/20px Tahoma;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 40px;
+	letter-spacing: 0px;
+}
+
+ul {
+	background: no-repeat;
+	color: #333333;
+	display: block;
+	width: 450px;
+	font: 12px/20px Tahoma;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 25px;
+	letter-spacing: 0px;
+}
+
+ul li {
+  list-style-type: disc;
+  list-style-image: url('/images/bull.gif');
+}
+

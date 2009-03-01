@@ -87,7 +87,7 @@
 	margin-bottom: 0;
 	letter-spacing: 0px;
 }
-#left_ p span{
+#left_ p span.style1{
 	color: #CC0000;
 	font-weight: bold;
 	font-size: 15px;
@@ -151,7 +151,7 @@
 	font-size: 15px;
 	letter-spacing: 0px;
 }
-#right_ p span{
+#right_ p span.style1{
 	color: #CC0000;
 	font-weight: bold;
 	font-size: 15px;
