@@ -61,6 +61,10 @@
 	<Style name="Superscript" element="sup" />
 	-->
 
+	<Style name="Title" element="h2" />
+	<Style name="Red Bold" element="span">
+	  <Attribute name="class" value="style1" />
+  </Style>
 	<Style name="Marker: Yellow" element="span">
 		<Style name="background-color" value="Yellow" />
 	</Style>

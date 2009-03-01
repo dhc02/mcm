@@ -147,7 +147,7 @@ FCKConfig.Keystrokes = [
 ] ;
 
 FCKConfig.ContextMenu = ['Generic','Link','Anchor','Image','Flash','Select','Textarea','Checkbox','Radio','TextField','HiddenField','ImageButton','Button','BulletedList','NumberedList','Table','Form','DivContainer'] ;
-FCKConfig.BrowserContextMenuOnCtrl = false ;
+FCKConfig.BrowserContextMenuOnCtrl = true ;
 FCKConfig.BrowserContextMenu = false ;
 
 FCKConfig.EnableMoreFontColors = true ;
@@ -163,7 +163,7 @@ FCKConfig.TemplatesXmlPath	= FCKConfig.EditorPath + 'fcktemplates.xml' ;
 FCKConfig.SpellChecker			= 'ieSpell' ;	// 'ieSpell' | 'SpellerPages'
 FCKConfig.IeSpellDownloadUrl	= 'http://www.iespell.com/download.php' ;
 FCKConfig.SpellerPagesServerScript = 'server-scripts/spellchecker.php' ;	// Available extension: .php .cfm .pl
-FCKConfig.FirefoxSpellChecker	= false ;
+FCKConfig.FirefoxSpellChecker	= true ;
 
 FCKConfig.MaxUndoLevels = 15 ;
 
@@ -200,10 +200,10 @@ FCKConfig.RemoveFormatTags = 'b,big,code,del,dfn,em,font,i,ins,kbd,q,samp,small,
 // Attributes that will be removed
 FCKConfig.RemoveAttributes = 'class,style,lang,width,height,align,hspace,valign' ;
 
-FCKConfig.CustomStyles =
-{
-	'Red Title'	: { Element : 'h3', Styles : { 'color' : 'Red' } }
-};
+// FCKConfig.CustomStyles =
+// {
+//   'Red Title'  : { Element : 'h3', Styles : { 'color' : 'Red' } }
+// };
 
 // Do not add, rename or remove styles here. Only apply definition changes.
 FCKConfig.CoreStyles =

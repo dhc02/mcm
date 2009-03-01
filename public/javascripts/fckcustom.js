@@ -24,10 +24,13 @@ FCKConfig.Plugins.Add( 'syntaxhighlight', 'en');
 FCKConfig.SyntaxHighlightLangDefault = 'ruby';   
 
 FCKConfig.ToolbarSets["Easy"] = [
-        ['Style','Bold','Italic','Underline','StrikeThrough','-'],
+        ['Style','Bold','Italic','Underline','StrikeThrough','RemoveFormat','-'],
         ['OrderedList','UnorderedList','-'],
-        ['FontSize'], ['TextColor','BGColor'],
-        ['easyImage', 'easyLink', 'Unlink']
+        ['TextColor','BGColor'],
+        ['easyImage', 'easyLink', 'Unlink'],
+        '/',
+        ['Paste','PasteText','PasteWord',],
+        ['Source','FitWindow','Templates']
 ] ;
 
 FCKConfig.ToolbarSets["Simple"] = [
