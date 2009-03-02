@@ -34,7 +34,7 @@ class EventsController < ApplicationController
     @event = Event.find(params[:id])
 
     respond_to do |format|
-      format.html { render :action => "show", :layout => false } # show.html.erb
+      format.html { render :action => "show", :layout => "application" } # show.html.erb
       format.xml  { render :xml => @event }
     end
   end
