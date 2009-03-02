@@ -2,6 +2,10 @@
 
 <% form_for :event_photo, @event_photo, :url => event_photos_path, :html => { :multipart => true } do |f| %>
     <%= f.file_field :photo %>
+    <p>
+      <%= f.label :caption %><br />
+      <%= f.text_field :caption, :size => 100 %>
+    </p>
 
   <p>
     <%= f.submit "Create" %>

@@ -1,0 +1,11 @@
+CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL);
+INSERT INTO "schema_migrations" VALUES('20081022050952');
+INSERT INTO "schema_migrations" VALUES('20081205031143');
+INSERT INTO "schema_migrations" VALUES('20081205031518');
+INSERT INTO "schema_migrations" VALUES('20081205033409');
+INSERT INTO "schema_migrations" VALUES('20081205033704');
+INSERT INTO "schema_migrations" VALUES('20090226032827');
+INSERT INTO "schema_migrations" VALUES('20090302014203');
+CREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL NULL, "body" text DEFAULT NULL NULL, "public" boolean DEFAULT NULL NULL, "created_by" varchar(255) DEFAULT NULL NULL, "updated_by" varchar(255) DEFAULT NULL NULL, "start_date" date DEFAULT NULL NULL, "end_date" date DEFAULT NULL NULL, "start_time" time DEFAULT NULL NULL, "end_time" time DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL, "teaser" text DEFAULT NULL NULL, "event_type" varchar(255));
+CREATE TABLE "event_photos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "photo_file_name" varchar(255) DEFAULT NULL NULL, "photo_content_type" varchar(255) DEFAULT NULL NULL, "photo_file_size" integer DEFAULT NULL NULL, "event_id" integer DEFAULT NULL NULL, "caption" text DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL, "photo_updated_at" datetime);
+CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version");

@@ -1,0 +1,5 @@
+production:
+  adapter: mysql
+  database: pamandd_museum
+  username: pamandd_museum
+  password: museumdb
