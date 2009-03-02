@@ -5,6 +5,13 @@
 	letter-spacing: 0px;
 }
 
+.subhead {
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0px;
+}
+
 h2 {
 	font: 29px/24px "Calisto MT";
 	color: #336699;

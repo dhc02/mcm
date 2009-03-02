@@ -33,6 +33,16 @@ FCKConfig.ToolbarSets["Easy"] = [
         ['Source','FitWindow','Templates']
 ] ;
 
+FCKConfig.ToolbarSets["Teaser"] = [
+        ['Bold','Italic','Underline','StrikeThrough','RemoveFormat','-'],
+        ['TextColor','BGColor'],
+        ['easyImage', 'easyLink', 'Unlink'],
+        '/',
+        ['Paste','PasteText','PasteWord',],
+        ['Source']
+] ;
+
+
 FCKConfig.ToolbarSets["Simple"] = [
         ['Source','-','-','Templates'],
         ['Cut','Copy','Paste','PasteWord','-','Print','SpellCheck'],
