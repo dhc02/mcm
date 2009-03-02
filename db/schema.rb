@@ -9,16 +9,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090226032827) do
+ActiveRecord::Schema.define(:version => 20090302014203) do
 
   create_table "event_photos", :force => true do |t|
-    t.string   "file_name"
-    t.string   "content_type"
-    t.integer  "file_size"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
     t.integer  "event_id"
     t.text     "caption"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.datetime "photo_updated_at"
   end
 
   create_table "events", :force => true do |t|

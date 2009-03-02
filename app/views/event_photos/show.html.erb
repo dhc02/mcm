@@ -1,0 +1,6 @@
+<%= image_tag @event_photo.photo.url %>
+<%= image_tag @event_photo.photo.url(:medium) %>
+<%= image_tag @event_photo.photo.url(:thumb) %>
+
+<%= link_to 'Edit', edit_event_photo_path(@event_photo) %> |
+<%= link_to 'Back', event_photos_path %>

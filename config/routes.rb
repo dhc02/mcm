@@ -1,8 +1,11 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :event_photos
+
   
   map.connect ':controller/admin', :action => 'admin'
   
   map.resources :events
+  map.resources :event_photos
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

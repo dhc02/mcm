@@ -1,0 +1,19 @@
+<h1>Listing event_photos</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% for event_photo in @event_photos %>
+  <tr>
+    <td><%= image_tag event_photo.photo.url(:thumb) %></td>
+    <td><%= link_to 'Show', event_photo %></td>
+    <td><%= link_to 'Edit', edit_event_photo_path(event_photo) %></td>
+    <td><%= link_to 'Destroy', event_photo, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New event_photo', new_event_photo_path %>
