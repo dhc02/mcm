@@ -1,6 +1,13 @@
-<%= image_tag @event_photo.photo.url %>
-<%= image_tag @event_photo.photo.url(:medium) %>
-<%= image_tag @event_photo.photo.url(:thumb) %>
-
-<%= link_to 'Edit', edit_event_photo_path(@event_photo) %> |
-<%= link_to 'Back', event_photos_path %>
+<p>
+  <h3>
+    <%= @event_photo.photo_file_name %> :: <%= @event_photo.event_title %>
+  </h3>
+  <a href="<%= @event_photo.photo.url %>" rel="highslide" class="highslide" >
+    <%= image_tag @event_photo.photo.url(:medium) %>
+  </a>
+  <%= image_tag @event_photo.photo.url(:thumb) %>
+</p>
+<p>
+  <%= link_to 'Edit', edit_event_photo_path(@event_photo) %> |
+  <%= link_to 'Back', event_photos_path %>
+</p>

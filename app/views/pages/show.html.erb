@@ -1,18 +1,9 @@
+<%= @page.content %>
+<br /><br />
 <p>
-  <b>Title:</b>
-  <%=h @page.title %>
+<%= link_to 'Edit This Page', edit_page_path(@page) %> |
+<%= link_to 'Manage All Pages', pages_path %> |
+<%= link_to 'Manage Photos', photos_path %> |
+<%= link_to 'Manage Calendar', events_path %>
 </p>
-
-<p>
-  <b>Updated by:</b>
-  <%=h @page.updated_by %>
-</p>
-
-<p>
-  <b>Content:</b>
-  <%=h @page.content %>
-</p>
-
-
-<%= link_to 'Edit', edit_page_path(@page) %> |
-<%= link_to 'Back', pages_path %>
+<br />

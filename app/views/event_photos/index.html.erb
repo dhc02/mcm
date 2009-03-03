@@ -1,19 +1,37 @@
-<h1>Listing event_photos</h1>
+<h2>Event Photos</h2>
 
-<table>
-  <tr>
-  </tr>
-
-<% for event_photo in @event_photos %>
-  <tr>
-    <td><%= image_tag event_photo.photo.url(:thumb) %></td>
-    <td><%= link_to 'Show', event_photo %></td>
-    <td><%= link_to 'Edit', edit_event_photo_path(event_photo) %></td>
-    <td><%= link_to 'Destroy', event_photo, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
+<p>
+  <table style="border:none;" >
+    <tr>
+    </tr>
+  
+    <% for event_photo in @event_photos %>
+    <tr>
+      <td>
+        <a href="<%= event_photo.photo.url(:medium) %>" rel="highslide" class="highslide" >
+          <%= image_tag event_photo.photo.url(:thumb) %>
+        </a>
+      </td>
+      <td>
+        <table>
+          <tr colspan="3">
+            <%= event_photo.photo_file_name %>
+            <br />
+            <h3><%= event_photo.event_title %></h3>
+          </tr>
+          <tr>
+            <td><%= link_to 'Show', event_photo %></td>
+            <td><%= link_to 'Edit', edit_event_photo_path(event_photo) %></td>
+            <td><%= link_to 'Destroy', event_photo, :confirm => 'Are you sure?', :method => :delete %></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <% end %>
+  </table>
+</p>
 <br />
-
-<%= link_to 'New event_photo', new_event_photo_path %>
+<p>
+  <%= link_to 'New Event Photo', new_event_photo_path %>
+</p>
+<br />

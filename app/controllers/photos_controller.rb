@@ -5,7 +5,8 @@ class PhotosController < ApplicationController
     @photos = Photo.find(:all)
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html { render :layout => 'application' }# index.html.erb
+      format.embedded { render :action => "index" }
       format.xml  { render :xml => @photos }
     end
   end
@@ -16,7 +17,7 @@ class PhotosController < ApplicationController
     @photo = Photo.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html { render :layout => 'application' }# show.html.erb
       format.xml  { render :xml => @photo }
     end
   end
@@ -27,7 +28,7 @@ class PhotosController < ApplicationController
     @photo = Photo.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html { render :layout => 'application' }# new.html.erb
       format.xml  { render :xml => @photo }
     end
   end
@@ -35,6 +36,7 @@ class PhotosController < ApplicationController
   # GET /photos/1/edit
   def edit
     @photo = Photo.find(params[:id])
+    render :layout => 'application'
   end
 
   # POST /photos

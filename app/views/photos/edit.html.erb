@@ -1,36 +1,21 @@
-<h1>Editing photo</h1>
+<h3>
+  Editing <%= @photo.photo_file_name %> :: <%= @photo.page_title %>
+</h3>
 
 <% form_for(@photo) do |f| %>
-  <%= f.error_messages %>
-
+  <p><%= f.error_messages %></p>
   <p>
-    <%= f.label :photo_file_name %><br />
-    <%= f.text_field :photo_file_name %>
+  <%= image_tag @photo.photo.url(:thumb) %>    
   </p>
   <p>
-    <%= f.label :photo_content_type %><br />
-    <%= f.text_field :photo_content_type %>
-  </p>
-  <p>
-    <%= f.label :photo_file_size %><br />
-    <%= f.text_field :photo_file_size %>
-  </p>
-  <p>
-    <%= f.label :page_id %><br />
-    <%= f.text_field :page_id %>
-  </p>
-  <p>
-    <%= f.label :caption %><br />
-    <%= f.text_area :caption %>
-  </p>
-  <p>
-    <%= f.label :photo_updated_at %><br />
-    <%= f.datetime_select :photo_updated_at %>
+    <%= f.label "Page Name" %>
+    <%= collection_select( :photo, :page_id, Page.find(:all), :id, :title ) %>
   </p>
   <p>
     <%= f.submit "Update" %>
   </p>
 <% end %>
 
-<%= link_to 'Show', @photo %> |
-<%= link_to 'Back', photos_path %>
+<p>
+  <%= link_to 'Show', @_photo %> | <%= link_to 'Back', photos_path %>
+</p>

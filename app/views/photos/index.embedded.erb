@@ -1,0 +1,5 @@
+<% for photo in @photos %>
+  <a href="<%= photo.photo.url(:medium) %>" rel="highslide" class="highslide" style="margin-left: 10px;" >
+    <%= image_tag photo.photo.url(:thumb), :title => "#{photo.page_title}::#{photo.photo_file_name}" %>
+  </a>
+<% end %>

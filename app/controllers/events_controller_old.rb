@@ -3,9 +3,26 @@ class EventsController < ApplicationController
   # GET /events.xml
   def index
     @events = Event.find_future
-
     respond_to do |format|
       format.html # index.html.erb
+      format.xml  { render :xml => @events }
+    end
+  end
+  
+  def admin
+    @events = Event.find(:all)
+    respond_to do |format|
+      format.html # admin.html.erb
+    end
+  end
+  
+  caches_embedded :index_future, :ttl => 1.minute
+  
+  def index_future
+    @events = Event.find_future
+
+    respond_to do |format|
+      format.html { render :action => "index" } # index.html.erb
       format.embedded { render :action => "index" }
       format.xml  { render :xml => @events }
     end
@@ -17,7 +34,7 @@ class EventsController < ApplicationController
     @event = Event.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html  # show.html.erb
       format.xml  { render :xml => @event }
     end
   end
@@ -28,7 +45,7 @@ class EventsController < ApplicationController
     @event = Event.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html { render :layout => 'pagesadmin' }# new.html.erb
       format.xml  { render :xml => @event }
     end
   end

@@ -14,11 +14,11 @@
   </p>
   <p>
     <%= f.label "Teaser for Sidebar" %><br />
-    <%= fckeditor_textarea("event", "teaser", :toolbarSet => 'Teaser', :width => '600px', :height => '200px') %>
+    <%= fckeditor_textarea("event", "teaser", :toolbarSet => 'Teaser', :width => '535px', :height => '200px') %>
   </p>
   <p>
     <%= f.label "Full Description" %><br />
-    <%= fckeditor_textarea("event", "body", :toolbarSet => 'Easy', :width => '600px', :height => '400px') %>
+    <%= fckeditor_textarea("event", "body", :toolbarSet => 'Easy', :width => '535px', :height => '400px') %>
   </p>
   <p>
     <%= f.label :public %><br />
@@ -53,5 +53,5 @@
   </p>
 <% end %>
 
-<%= link_to 'Show', @event %> |
-<%= link_to 'Back', events_path %>
+<%= link_to 'Back to This Event', @event %> |
+<%= link_to 'Manage Events', events_path %>

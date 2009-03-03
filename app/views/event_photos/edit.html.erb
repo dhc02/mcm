@@ -1,12 +1,21 @@
-<h1>Editing event_photo</h1>
+<h3>
+  Editing <%= @event_photo.photo_file_name %> :: <%= @event_photo.event_title %>
+</h3>
 
 <% form_for(@event_photo) do |f| %>
-  <%= f.error_messages %>
-
+  <p><%= f.error_messages %></p>
+  <p>
+  <%= image_tag @event_photo.photo.url(:thumb) %>    
+  </p>
+  <p>
+    <%= f.label "Associated Event" %>
+    <%= collection_select( :event_photo, :event_id, Event.all, :id, :title ) %>
+  </p>
   <p>
     <%= f.submit "Update" %>
   </p>
 <% end %>
 
-<%= link_to 'Show', @event_photo %> |
-<%= link_to 'Back', event_photos_path %>
+<p>
+  <%= link_to 'Show', @event_photo %> | <%= link_to 'Back', event_photos_path %>
+</p>

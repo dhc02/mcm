@@ -1,33 +1,13 @@
 <p>
-  <b>Photo file name:</b>
-  <%=h @photo.photo_file_name %>
+  <h3>
+    <%= @photo.photo_file_name %> :: <%= @photo.page_title %>
+  </h3>
+  <a href="<%= @photo.photo.url %>" rel="highslide" class="highslide" >
+    <%= image_tag @photo.photo.url(:medium), :width => "400px" %>
+  </a>
+  <%= image_tag @photo.photo.url(:thumb) %>
 </p>
-
 <p>
-  <b>Photo content type:</b>
-  <%=h @photo.photo_content_type %>
+  <%= link_to 'Edit', edit_photo_path(@photo) %> |
+  <%= link_to 'Back', photos_path %>
 </p>
-
-<p>
-  <b>Photo file size:</b>
-  <%=h @photo.photo_file_size %>
-</p>
-
-<p>
-  <b>Page:</b>
-  <%=h @photo.page_id %>
-</p>
-
-<p>
-  <b>Caption:</b>
-  <%=h @photo.caption %>
-</p>
-
-<p>
-  <b>Photo updated at:</b>
-  <%=h @photo.photo_updated_at %>
-</p>
-
-
-<%= link_to 'Edit', edit_photo_path(@photo) %> |
-<%= link_to 'Back', photos_path %>

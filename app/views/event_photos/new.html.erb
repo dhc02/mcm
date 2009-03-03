@@ -1,15 +1,28 @@
-<h1>New event_photo</h1>
+<div id="content">
+  <h2>New Event Photo</h2>
+  
+  <% form_for :event_photo, @event_photo, :url => event_photos_path, :html => { :multipart => true } do |f| %>
+    <p>
+      <%= f.error_messages %>
+      <%= f.file_field :photo %>
+    </p>
+    <p>
+      <%= f.label :caption %><br />
+      <%= f.text_field :caption, :size => 100, :style => "width: 35em;" %>
+    </p>
+    <p>
+      <%= f.label "What Event is this Photo of?" %><br />
+      <%= collection_select( :event_photo, :event_id, Event.all, :id, :title ) %>
 
-<% form_for :event_photo, @event_photo, :url => event_photos_path, :html => { :multipart => true } do |f| %>
-  <%= f.file_field :photo %>
+    </p>
+ 
+    <p>
+      <%= f.submit "Create" %>
+    </p>
+  <% end %>
+  <br />
   <p>
-    <%= f.label :caption %><br />
-    <%= f.text_field :caption, :size => 100 %>
+    <%= link_to 'Back', event_photos_path %>
+    
   </p>
-
-  <p>
-    <%= f.submit "Create" %>
-  </p>
-<% end %>
-
-<%= link_to 'Back', event_photos_path %>
+</div>

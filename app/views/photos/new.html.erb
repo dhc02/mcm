@@ -1,35 +1,27 @@
-<h1>New photo</h1>
-
-<% form_for(@photo) do |f| %>
-  <%= f.error_messages %>
-
+<div id="content">
+  <h2>New Photo</h2>
+  
+  <% form_for :photo, @photo, :url => photos_path, :html => { :multipart => true } do |f| %>
+    <p>
+      <%= f.error_messages %>
+      <%= f.file_field :photo %>
+    </p>
+    <p>
+      <%= f.label :caption %><br />
+      <%= f.text_field :caption, :size => 100, :style => "width: 35em;" %>
+    </p>
+    <p>
+      <%= f.label "What Page shoud this go on?" %><br />
+      <%= collection_select( :photo, :page_id, Page.find(:all), :id, :title ) %>
+    </p>
+  
+    <p>
+      <%= f.submit "Create" %>
+    </p>
+  <% end %>
+  <br />
   <p>
-    <%= f.label :photo_file_name %><br />
-    <%= f.text_field :photo_file_name %>
+    <%= link_to 'Back', photos_path %>
+    
   </p>
-  <p>
-    <%= f.label :photo_content_type %><br />
-    <%= f.text_field :photo_content_type %>
-  </p>
-  <p>
-    <%= f.label :photo_file_size %><br />
-    <%= f.text_field :photo_file_size %>
-  </p>
-  <p>
-    <%= f.label :page_id %><br />
-    <%= f.text_field :page_id %>
-  </p>
-  <p>
-    <%= f.label :caption %><br />
-    <%= f.text_area :caption %>
-  </p>
-  <p>
-    <%= f.label :photo_updated_at %><br />
-    <%= f.datetime_select :photo_updated_at %>
-  </p>
-  <p>
-    <%= f.submit "Create" %>
-  </p>
-<% end %>
-
-<%= link_to 'Back', photos_path %>
+</div>

@@ -5,7 +5,7 @@ class EventPhotosController < ApplicationController
     @event_photos = EventPhoto.find(:all)
 
     respond_to do |format|
-      format.html { render :action => "index", :layout => "application" }# index.html.erb
+      format.html { render :layout => "application" }# index.html.erb
       format.xml  { render :xml => @event_photos }
     end
   end
@@ -16,7 +16,7 @@ class EventPhotosController < ApplicationController
     @event_photo = EventPhoto.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html { render :layout => "application" }# show.html.erb
       format.xml  { render :xml => @event_photo }
     end
   end
@@ -27,7 +27,7 @@ class EventPhotosController < ApplicationController
     @event_photo = EventPhoto.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html { render :layout => "application" }# new.html.erb
       format.xml  { render :xml => @event_photo }
     end
   end
@@ -35,6 +35,7 @@ class EventPhotosController < ApplicationController
   # GET /event_photos/1/edit
   def edit
     @event_photo = EventPhoto.find(params[:id])
+    render :layout => "application"
   end
 
   # POST /event_photos

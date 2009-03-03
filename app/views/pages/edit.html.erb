@@ -1,19 +1,19 @@
-<h1>Editing page</h1>
+<%= javascript_include_tag :fckeditor %> 
+<h3>Editing <%= @page.title %></h3>
 
 <% form_for(@page) do |f| %>
   <%= f.error_messages %>
-
   <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.label :title %> :: <%= f.text_field :title %>
   </p>
   <p>
-    <%= f.label :updated_by %><br />
-    <%= f.text_field :updated_by %>
+    <%= f.label "Updated By (put your name here)" %> :: <%= f.text_field :updated_by %>
+  </p> 
+  <p>
+    <%= f.submit "Update" %>
   </p>
   <p>
-    <%= f.label :content %><br />
-    <%= f.text_area :content %>
+    <%= fckeditor_textarea("page", "content", :toolbarSet => 'Easy', :width => '535px', :height => '800px') %>
   </p>
   <p>
     <%= f.submit "Update" %>

@@ -1,4 +1,5 @@
-<h1>New page</h1>
+<%= javascript_include_tag :fckeditor %> 
+<h1>New Page</h1>
 
 <% form_for(@page) do |f| %>
   <%= f.error_messages %>
@@ -8,16 +9,17 @@
     <%= f.text_field :title %>
   </p>
   <p>
-    <%= f.label :updated_by %><br />
+    <%= f.label "Updated By (put your name here)" %>
     <%= f.text_field :updated_by %>
-  </p>
+  </p>   
   <p>
-    <%= f.label :content %><br />
-    <%= f.text_area :content %>
+    <%= f.label "Page Content" %><br />
+    <%= fckeditor_textarea("page", "content", :toolbarSet => 'Easy', :width => '600px', :height => '800px') %>
   </p>
   <p>
     <%= f.submit "Create" %>
   </p>
+
 <% end %>
 
 <%= link_to 'Back', pages_path %>

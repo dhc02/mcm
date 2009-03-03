@@ -1,24 +1,29 @@
-<h1>Listing pages</h1>
+<h3>Manage Pages</h3>
 
 <table>
   <tr>
     <th>Title</th>
     <th>Updated by</th>
-    <th>Content</th>
+    <th>On</th>
   </tr>
 
 <% for page in @pages %>
   <tr>
     <td><%=h page.title %></td>
     <td><%=h page.updated_by %></td>
-    <td><%=h page.content %></td>
+    <td><%=h page.updated_at.strftime("%m/%d/%y - %I:%M%p") %></td>
+    <td>  </td>
     <td><%= link_to 'Show', page %></td>
     <td><%= link_to 'Edit', edit_page_path(page) %></td>
-    <td><%= link_to 'Destroy', page, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New page', new_page_path %>
+<p>
+  <%= link_to "Manage Calendar", events_path %> | 
+  <%= link_to 'Manage Photos', photos_path %> 
+</p>
+
+<br />

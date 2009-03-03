@@ -16,7 +16,7 @@ class PagesController < ApplicationController
     @page = Page.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html { render :layout => "application" } # show.html.erb
       format.xml  { render :xml => @page }
     end
   end
@@ -35,6 +35,7 @@ class PagesController < ApplicationController
   # GET /pages/1/edit
   def edit
     @page = Page.find(params[:id])
+    # render :layout => 'pagesadmin'
   end
 
   # POST /pages

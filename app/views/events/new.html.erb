@@ -1,24 +1,23 @@
 <%= javascript_include_tag :fckeditor %> 
-<h1>New event</h1>
+<h3 style="display:inline;">New event</h3> <%= link_to '[Cancel]', events_path %>
+
 
 <% form_for(@event) do |f| %>
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.label :title %> :: <%= f.text_field :title %>
   </p>
   <p>
-    <%= f.label "Event Type" %><br />
-    <%= f.text_field :event_type %>
+    <%= f.label "Event Type" %> :: <%= f.text_field :event_type %>
   </p>
   <p>
     <%= f.label "Teaser for Sidebar" %><br />
-    <%= fckeditor_textarea("event", "teaser", :toolbarSet => 'Teaser', :width => '600px', :height => '200px') %>
+    <%= fckeditor_textarea("event", "teaser", :toolbarSet => 'Teaser', :width => '535px', :height => '200px') %>
   </p>
   <p>
     <%= f.label "Full Description" %><br />
-    <%= fckeditor_textarea("event", "body", :toolbarSet => 'Easy', :width => '600px', :height => '400px') %>
+    <%= fckeditor_textarea("event", "body", :toolbarSet => 'Easy', :width => '535px', :height => '400px') %>
   </p>
   <p>
     <%= f.label :public %><br />
@@ -52,5 +51,7 @@
     <%= f.submit "Create" %>
   </p>
 <% end %>
-
-<%= link_to 'Back', events_path %>
+<br />
+<p>
+  <%= link_to 'Cancel', events_path %>
+</p>
