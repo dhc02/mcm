@@ -5,7 +5,7 @@ class EventPhotosController < ApplicationController
     @event_photos = EventPhoto.find(:all)
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html { render :action => "index", :layout => "application" }# index.html.erb
       format.xml  { render :xml => @event_photos }
     end
   end
