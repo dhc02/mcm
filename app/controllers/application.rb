@@ -2,7 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
-  include Clearance::App::Controllers::ApplicationController
+  # include Clearance::App::Controllers::ApplicationController
   helper :all # include all helpers, all the time
 
   # See ActionController::RequestForgeryProtection for details

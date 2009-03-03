@@ -20,25 +20,86 @@ events:
   - - "1"
     - Test Event 13847
     - |-
-      <h2>Matagorda County Museum</h2>
-      <h3>Sub-Heading Here</h3>
+      <h3>Sample Event</h3>
+      <p>Sample event details:</p>
+      <ol>
+          <li>Detail 1</li>
+          <li>Detail 2</li>
+          <li>Detail 3</li>
+      </ol>
+      <p>alsdfjldksajflk;dsajflkdjsalfjdlk</p>
+      <p>fdkslfj;l</p>
       <p>&nbsp;</p>
-      <p>This is some <span class="style1">sample</span> text for this test event, with some <span class="style1">in-line</span> highlighting.</p>
-      <p>&nbsp;</p>
-      <p><img height="150" width="112" src="/uploads/Image/IMG_2790_1.jpg" alt="" /></p>
+      <p><img height="150" width="112" alt="" src="/uploads/Image/IMG_2790_1.jpg" />&nbsp; <img height="133" width="100" src="/uploads/Image/northern sign.jpg" alt="" /></p>
     - true
     - Donnie
-    - ""
+    - Donnie
     - "2009-05-01"
     - "2009-06-01"
-    - 2000-01-01 08:03:00
-    - 2000-01-01 12:03:00
+    - 2000-01-02 02:03:01
+    - 2000-01-01 06:03:00
     - 2009-03-01 08:47:51
-    - 2009-03-02 01:29:53
+    - 2009-03-03 06:17:51
     - |-
       <p>Matagorda County Museum<br />
       Sub-Heading Here<br />
       fdsafdsa This is the story of a fdsa kind of day. La la la fkjld;sa gobbledegook.</p>
+    - Exhibit
+  - - "2"
+    - Test
+    - test
+    - true
+    - Donnie
+    - 
+    - "2009-03-03"
+    - "2009-03-03"
+    - 2009-03-03 00:31:17
+    - 2009-03-03 00:31:25
+    - 2009-03-03 07:30:39
+    - 2009-03-03 07:31:26
+    - test
+    - Exhibit
+  - - "3"
+    - test
+    - test
+    - true
+    - Donnie
+    - ""
+    - "2009-04-03"
+    - "2009-05-03"
+    - 2009-03-03 16:44:00
+    - 2009-03-04 01:44:00
+    - 2009-03-03 07:45:43
+    - 2009-03-03 07:45:43
+    - test
+    - Exhibit
+  - - "4"
+    - Old Event
+    - <p>Shouldn't show up unless admin is specified.</p>
+    - true
+    - Donnie
+    - ""
+    - "2007-03-03"
+    - "2007-03-05"
+    - 2009-03-03 07:52:00
+    - 2009-03-03 19:52:01
+    - 2009-03-03 07:53:24
+    - 2009-03-03 07:53:24
+    - <p>shouldn't show up</p>
+    - Exhibit
+  - - "5"
+    - Upcoming Exhibit A
+    - <p>Lions and Tigers and Bears, Oh My!</p>
+    - true
+    - Donnie
+    - ""
+    - "2010-03-03"
+    - "2010-04-03"
+    - 2009-03-03 20:01:01
+    - 2009-03-03 21:01:01
+    - 2009-03-03 08:01:50
+    - 2009-03-03 08:01:50
+    - <p>Lions and Tigers and Bears, Oh My!</p>
     - Exhibit
 
 --- 
@@ -63,3 +124,146 @@ event_photos:
     - 2009-03-02 01:47:04
     - 2009-03-02 01:47:04
     - 2009-03-02 01:46:52
+  - - "2"
+    - 20061219-Pams-Cam-15.jpg
+    - image/jpeg
+    - "403826"
+    - "1"
+    - Donnie looking like an idiot
+    - 2009-03-02 06:33:49
+    - 2009-03-03 03:36:05
+    - 2009-03-02 06:33:39
+  - - "3"
+    - northern_sign.jpg
+    - image/jpeg
+    - "47109"
+    - "3"
+    - "\"Big Mountain\" in the Great Northern Bar"
+    - 2009-03-02 06:34:30
+    - 2009-03-03 07:57:22
+    - 2009-03-02 06:34:28
+
+--- 
+pages: 
+  columns: 
+  - id
+  - title
+  - updated_by
+  - content
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - Photos
+    - 
+    - <h2>Photos</h2>
+    - 2009-03-03 04:47:09
+    - 2009-03-03 04:47:09
+  - - "2"
+    - Children's Museum
+    - Donnie
+    - |-
+      <h2>Children's Museum</h2>
+      <h3>Subhead</h3>
+      <p>Some sample text with an <span class="style1">inline highlight</span> for illustration.</p>
+      <p><img height="133" align="left" width="100" src="/uploads/Image/northern sign.jpg" alt="The Big Mountain sign at the Great Northern Bar in Whitefish" />Paragraph two, with a photo inserted and aligned left. You can change the size of the photo by clicking on it and dragging the corners. You can insert a new photo at any time by clicking the little yellow icon up at the top with mountains and the sun.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>An unordered (bulleted) list:</p>
+      <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+      </ul>
+    - 2009-03-03 05:28:22
+    - 2009-03-03 05:45:43
+  - - "3"
+    - Current Exhibits
+    - Donnie
+    - |-
+      <h2>Current Exhibits</h2>
+      <h3>Subhead</h3>
+      <p>Some sample text with an <span class="style1">inline highlight</span> for illustration.</p>
+    - 2009-03-03 05:33:05
+    - 2009-03-03 05:36:29
+  - - "4"
+    - Rent Our Facilities
+    - 
+    - <h2>Rent Our Facilities</h2>
+    - 2009-03-03 05:37:13
+    - 2009-03-03 05:37:13
+  - - "5"
+    - Contact Us
+    - Donnie
+    - |-
+      <h2>Contact Us</h2>
+      <p>&nbsp;</p>
+      <p>Please call us at <span class="style1">(979) 245-7502</span> during normal business hours, or </p>
+      <p>&nbsp;</p>
+      <p>email us at <a href="mailto:mcma@matagordamuseum.com">mcma@matagordamuseum.com</a></p>
+    - 2009-03-03 05:39:57
+    - 2009-03-03 05:39:57
+  - - "6"
+    - Welcome Page
+    - Donnie
+    - |-
+      <h2>Welcome to the Matagorda County Museum</h2>
+      <p>The mission of the <span class="style1">Matagorda County Museum</span> is to collect, to preserve and to protect the county&rsquo;s cultural heritage. 	  <br />
+      <br />
+      Through exhibition and development of educational programming we make the museum a <span class="style1">cultural experience</span> and destination.</p>
+      <p>&nbsp;</p>
+      <p>Call us at 979-245-7502</p>
+    - 2009-03-03 06:47:32
+    - 2009-03-03 06:55:17
+
+--- 
+photos: 
+  columns: 
+  - id
+  - photo_file_name
+  - photo_content_type
+  - photo_file_size
+  - page_id
+  - caption
+  - photo_updated_at
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - IMG_1527.JPG
+    - image/jpeg
+    - "3320897"
+    - 
+    - Idyllic scene, Riverside Park, Downtown Whitefish
+    - 2009-03-03 04:32:17
+    - 2009-03-03 04:32:27
+    - 2009-03-03 04:32:27
+  - - "2"
+    - DSC00023.JPG
+    - image/jpeg
+    - "2138424"
+    - 
+    - Snowghosts in Whitefish
+    - 2009-03-03 04:37:15
+    - 2009-03-03 04:37:22
+    - 2009-03-03 04:37:22
+  - - "3"
+    - 20070408_Whitefish_Beach_Landscape.jpg
+    - image/jpeg
+    - "155425"
+    - "1"
+    - Whitefish Beach Landscape
+    - 2009-03-03 05:12:56
+    - 2009-03-03 05:12:59
+    - 2009-03-03 05:12:59
+  - - "4"
+    - IMG_2464.JPG
+    - image/jpeg
+    - "2926745"
+    - "6"
+    - Family Photo
+    - 2009-03-03 07:22:13
+    - 2009-03-03 07:22:21
+    - 2009-03-03 07:22:21
