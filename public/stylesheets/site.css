@@ -234,7 +234,7 @@
 	background-image: url('/images/tablexpand.jpg');
 }
 #footer1_ {
-	float: left;
+/*  float: left;*/
 	left: 0px;
 	top: 636px;
 	width: 820px;
@@ -242,7 +242,7 @@
 	background-image: url('/images/footer1.jpg');
 }
 #footer2_ {
-	float: left;
+/*  float: left;*/
 	left: 0px;
 	top: 654px;
 	width: 820px;

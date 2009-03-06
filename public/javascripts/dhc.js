@@ -1,3 +1,17 @@
+//Highslide stuff
+hs.graphicsDir = '/images/highslide/graphics/';
+hs.registerOverlay({
+  		thumbnailId: null,
+  		overlayId: 'controlbar',
+  		position: 'top right',
+  		hideOnMouseOut: true
+});
+hs.outlineType = 'rounded-white';
+// Tell Highslide to use the thumbnail's title for captions
+hs.captionEval = 'this.thumb.title';
+hs.showCredits = false;
+
+
 jQuery(document).ready(function() {
   
   $("img").each(function (){
