@@ -87,12 +87,6 @@
 	margin-bottom: 0;
 	letter-spacing: 0px;
 }
-#left_ p span.style1{
-	color: #CC0000;
-	font-weight: bold;
-	font-size: 15px;
-	letter-spacing: 0px;
-}
 #left_ p span.bg{
 	color: #799fbb;
 }
@@ -111,7 +105,21 @@
 	font-weight: normal;
 	text-decoration: underline;
 }
-
+#left_ p .style1 {
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0px;
+}
+#left_ p .style1 a {
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0px;
+}
+#left_ p .style1:hover {
+	color: #015A11;
+}
 #right_ {
 	float: left;
 	left: 230px;
@@ -151,12 +159,6 @@
 	font-size: 15px;
 	letter-spacing: 0px;
 }
-#right_ span.style1{
-	color: #CC0000;
-	font-weight: bold;
-	font-size: 15px;
-	letter-spacing: 0px;
-}
 #right_ p span.bg{
 	color: #799fbb;
 }
@@ -169,21 +171,26 @@
 	padding-right: 0;
 	padding-bottom: 0;
 }
-#right_ p span.style1 a{
+#right_ p span.style1 {
 	color: #CC0000;
 	font-weight: bold;
 	font-size: 15px;
 	letter-spacing: 0px;
 }
-
+#right_ p .style1 a {
+	color: #CC0000;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0px;
+}
+#right_ p .style1 a:hover {
+	color: #015A11;
+}
 #right_ p a:hover{
 	background: no-repeat;
 	color: #CC3300;
 	font-weight: normal;
 	text-decoration: underline;
-}
-#right_ p span.style1 a:hover{
-	color: #015A11;
 }
 #right_ ol {
 	background: no-repeat;

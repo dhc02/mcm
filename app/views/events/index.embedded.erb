@@ -1,7 +1,7 @@
 <% for event in @events %>
   <p>
     <b><%=h event.start_date.strftime("%m/%d/%y") %> - <%=h event.end_date.strftime("%m/%d/%y") %></b><br />
-    <span class="style1"><%=h event.title %></span><br />
+    <%= link_to event.title, event, :class => "style1" %><br />
     <%= event.teaser %>
   </p>
   <br />
