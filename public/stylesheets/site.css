@@ -109,7 +109,9 @@
 	color: #CC0000;
 	font-weight: bold;
 	font-size: 15px;
+	line-height: 125%;
 	letter-spacing: 0px;
+	text-decoration: none;
 }
 #left_ p .style1 a {
 	color: #CC0000;
@@ -117,8 +119,10 @@
 	font-size: 15px;
 	letter-spacing: 0px;
 }
-#left_ p .style1:hover {
+#left_ p a.style1:hover {
 	color: #015A11;
+	font-weight: bold;
+	text-decoration: none;
 }
 #right_ {
 	float: left;
@@ -182,9 +186,12 @@
 	font-weight: bold;
 	font-size: 15px;
 	letter-spacing: 0px;
+	text-decoration: none;
 }
 #right_ p .style1 a:hover {
 	color: #015A11;
+	font-weight: bold;
+	text-decoration: none;
 }
 #right_ p a:hover{
 	background: no-repeat;
