@@ -1,3 +1,4 @@
 *.sqlite3
 tmp
-db/data.yml
+/db/data.yml
+/config/initializers/site_keys.rb
