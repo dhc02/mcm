@@ -52,6 +52,8 @@
   </p>
 <% end %>
 <br />
-<p>
-  <%= render :partial => 'layouts/adminlinks' %>
-</p>
+<% if logged_in? -%>
+  <p>
+    <%= render :partial => 'layouts/adminlinks' %>
+  </p>
+<% end -%>

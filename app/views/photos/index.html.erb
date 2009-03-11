@@ -1,7 +1,9 @@
-<h2>Manage Photos</h2>
-<p>
-  <%= link_to 'New Photo', new_photo_path %>
-</p>
+<h3>Manage Photos</h3>
+<% if logged_in? -%>
+  <p>
+    <%= link_to 'New Photo', new_photo_path %>
+  </p>
+<% end -%>
 
 <p>
   <table style="border:none;" >
@@ -33,8 +35,10 @@
     <% end %>
   </table>
 </p>
-<p>
-  <%= link_to 'New Photo', new_photo_path %> |
-  <%= render :partial => 'layouts/adminlinks'%>
-</p>
+<% if logged_in? -%>
+  <p>
+    <%= link_to 'New Photo', new_photo_path %> |
+    <%= render :partial => 'layouts/adminlinks'%>
+  </p>
+<% end -%>
 <br />

@@ -1,0 +1,11 @@
+<% if logged_in? -%>
+  <div id="user-bar-greeting">
+    Logged in as <%= link_to_current_user :content_method => :login %> 
+    (<%= link_to "Log out", logout_path, { :title => "Log out" }    %>)
+  </div>
+  <div id="user-bar-action"  > 
+    
+    <%= render :partial => 'layouts/adminlinks' %> 
+  </div> 
+
+<% end -%> 

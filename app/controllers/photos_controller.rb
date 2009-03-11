@@ -1,4 +1,7 @@
 class PhotosController < ApplicationController
+
+  before_filter :login_required, :except => :index
+
   # GET /photos
   # GET /photos.xml
   def index

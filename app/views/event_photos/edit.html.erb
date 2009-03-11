@@ -29,7 +29,10 @@
   </p>
 <% end %>
 <br />
-<p>
-  <%= link_to 'View this Event Photo', @event_photo %> | 
-  <%= render :partial => 'layouts/adminlinks' %>
-</p>
+<% if logged_in? -%>
+  <p>
+    <%= link_to 'View this Event Photo', @event_photo %> | 
+    <%= render :partial => 'layouts/adminlinks' %>
+  </p>
+  <br />
+<% end -%>

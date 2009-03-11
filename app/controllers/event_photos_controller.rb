@@ -1,4 +1,7 @@
 class EventPhotosController < ApplicationController
+  
+  before_filter :login_required
+  
   # GET /event_photos
   # GET /event_photos.xml
   def index

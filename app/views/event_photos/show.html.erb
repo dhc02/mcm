@@ -11,7 +11,10 @@
   <strong><%=h @event_photo.caption %></strong>
 </p>
 <br />
-<p>
-  <%= link_to 'Edit this Event Photo', edit_event_photo_path(@event_photo) %> |
-  <%= render :partial => 'layouts/adminlinks' %>
-</p>
+<% if logged_in? -%>
+  <p>
+    <%= link_to 'Edit this Event Photo', edit_event_photo_path(@event_photo) %> |
+    <%= render :partial => 'layouts/adminlinks' %>
+  </p>
+  <br />
+<% end -%>

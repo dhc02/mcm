@@ -1,7 +1,9 @@
 <h2>Upcoming Events &amp; Exhibits</h2>
-<p>
-  <%= link_to 'Create New Event', new_event_path %>
-</p>
+<% if logged_in? -%>
+  <p>
+    <%= link_to 'Create New Event', new_event_path %>
+  </p>
+<% end -%>
 <br />
 <p>
   <% for event in @events %>
@@ -9,14 +11,18 @@
       <b><%=h event.start_date.strftime("%m/%d") %> - <%=h event.end_date.strftime("%m/%d") %></b> ::
       <%=h event.start_time.strftime("%I:%M%p")%> - <%=h event.end_time.strftime("%I:%M%p")%> ::
       <span class="style1"><%= link_to event.title, event %></span>  
-      <%= link_to '[edit]', edit_event_path(event) %>
-      <%= link_to '[delete]', event, :confirm => "Are you sure you want to delete #{event.title}?", :method => 'delete' %>
+      <% if logged_in? -%>
+        <%= link_to '[edit]', edit_event_path(event) %>
+        <%= link_to '[delete]', event, :confirm => "Are you sure you want to delete #{event.title}?", :method => 'delete' %>
+      <% end -%>
     </p>
     <br />
   <% end %>
 </p>
-<p>
-  <%= link_to 'Create New Event', new_event_path %> |
-  <%= render :partial => 'layouts/adminlinks'%>
-</p>
+<% if logged_in? -%>
+  <p>
+    <%= link_to 'Create New Event', new_event_path %> |
+    <%= render :partial => 'layouts/adminlinks'%>
+  </p>
+<% end -%>
 <br />

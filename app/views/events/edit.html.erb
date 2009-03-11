@@ -53,8 +53,10 @@
   </p>
 <% end %>
 <br />
-<p>
-  <%= link_to 'View This Event', @event %> |  
-  <%= render :partial => 'layouts/adminlinks'%>
-</p>
-<br />
+<% if logged_in? -%>
+  <p>
+    <%= link_to 'View This Event', @event %> |  
+    <%= render :partial => 'layouts/adminlinks'%>
+  </p>
+  <br />
+<% end -%>

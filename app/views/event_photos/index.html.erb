@@ -1,7 +1,9 @@
-<h2>Event Photos</h2>
+<h3>Manage Event Photos</h3>
+<% if logged_in? -%>
 <p>
   <%= link_to 'New Event Photo', new_event_photo_path %>
 </p>
+<% end -%>
 <p>
   <table style="border:none;" >
     <tr>
@@ -33,8 +35,10 @@
   </table>
 </p>
 <br />
-<p>
-  <%= link_to 'New Event Photo', new_event_photo_path %> |
-  <%= render :partial => 'layouts/adminlinks'%>
-</p>
-<br />
+<% if logged_in? -%>
+  <p>
+    <%= link_to 'New Event Photo', new_event_photo_path %> |
+    <%= render :partial => 'layouts/adminlinks'%>
+  </p>
+  <br />
+<% end -%>
