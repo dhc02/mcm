@@ -226,7 +226,8 @@
 	font-weight: bold;
 	font-size: 15px;
 	letter-spacing: 0px;
-	padding: 0 0 0 10px;
+	padding: 0 20px 0 10px;
+	margin-right: 10px;
 }
 #right_ h4 {
   padding: 0 0 0 10px;
@@ -300,7 +301,7 @@ ul li {
 }
 
 th, td {
-  border: none;
+  border: none !important;
 }
 
 #flash_notice {

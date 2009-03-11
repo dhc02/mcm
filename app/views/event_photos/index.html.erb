@@ -1,5 +1,7 @@
 <h2>Event Photos</h2>
-
+<p>
+  <%= link_to 'New Event Photo', new_event_photo_path %>
+</p>
 <p>
   <table style="border:none;" >
     <tr>
@@ -20,9 +22,9 @@
             <h3><%= event_photo.event_title %></h3>
           </tr>
           <tr>
-            <td><%= link_to 'Show', event_photo %></td>
+            <td><%= link_to 'View', event_photo %></td>
             <td><%= link_to 'Edit', edit_event_photo_path(event_photo) %></td>
-            <td><%= link_to 'Destroy', event_photo, :confirm => 'Are you sure?', :method => :delete %></td>
+            <td><%= link_to 'Delete', event_photo, :confirm => 'Are you sure?', :method => :delete %></td>
           </tr>
         </table>
       </td>
@@ -32,6 +34,7 @@
 </p>
 <br />
 <p>
-  <%= link_to 'New Event Photo', new_event_photo_path %>
+  <%= link_to 'New Event Photo', new_event_photo_path %> |
+  <%= render :partial => 'layouts/adminlinks'%>
 </p>
 <br />

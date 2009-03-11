@@ -20,5 +20,9 @@
   </p>
 <% end %>
 
-<%= link_to 'Show', @page %> |
-<%= link_to 'Back', pages_path %>
+<p>
+  <%= link_to 'View this Page', @page %> |
+  <%= render :partial => 'layouts/adminlinks'%>
+</p>
+
+<br />

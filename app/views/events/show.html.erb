@@ -6,6 +6,5 @@
 <p>
   <%= link_to 'Edit this Event', edit_event_path(@event) %> |
   <%= link_to 'Delete this Event', @event, :confirm => "Are you sure you want to delete #{@event.title}?", :method => 'delete' %> |
-  <%= link_to 'Manage all Events', events_path %> |
-  <%= link_to 'Manage Pages', pages_path %>
+  <%= render :partial => 'layouts/adminlinks' %>
 </p>

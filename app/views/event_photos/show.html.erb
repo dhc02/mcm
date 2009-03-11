@@ -1,13 +1,17 @@
-<p>
-  <h3>
-    <%= @event_photo.photo_file_name %> :: <%= @event_photo.event_title %>
-  </h3>
+<h3>
+  <%= @event_photo.photo_file_name %> :: <%= @event_photo.event_title %>
+</h3>
+<p> 
   <a href="<%= @event_photo.photo.url %>" rel="highslide" class="highslide" >
     <%= image_tag @event_photo.photo.url(:medium) %>
   </a>
   <%= image_tag @event_photo.photo.url(:thumb) %>
 </p>
 <p>
-  <%= link_to 'Edit', edit_event_photo_path(@event_photo) %> |
-  <%= link_to 'Back', event_photos_path %>
+  <strong><%=h @event_photo.caption %></strong>
+</p>
+<br />
+<p>
+  <%= link_to 'Edit this Event Photo', edit_event_photo_path(@event_photo) %> |
+  <%= render :partial => 'layouts/adminlinks' %>
 </p>

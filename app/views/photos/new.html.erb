@@ -1,5 +1,5 @@
 <div id="content">
-  <h2>New Photo</h2>
+  <h3>New Photo</h3>
   
   <% form_for :photo, @photo, :url => photos_path, :html => { :multipart => true } do |f| %>
     <p>
@@ -21,7 +21,7 @@
   <% end %>
   <br />
   <p>
-    <%= link_to 'Back', photos_path %>
+    <%= render :partial => 'layouts/adminlinks' %>
     
   </p>
 </div>

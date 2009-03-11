@@ -13,7 +13,7 @@
     <td><%=h page.updated_by %></td>
     <td><%=h page.updated_at.strftime("%m/%d/%y - %I:%M%p") %></td>
     <td>  </td>
-    <td><%= link_to 'Show', page %></td>
+    <td><%= link_to 'View', page %></td>
     <td><%= link_to 'Edit', edit_page_path(page) %></td>
   </tr>
 <% end %>
@@ -22,8 +22,7 @@
 <br />
 
 <p>
-  <%= link_to "Manage Calendar", events_path %> | 
-  <%= link_to 'Manage Photos', photos_path %> 
+  <%= render :partial => 'layouts/adminlinks' %>
 </p>
 
 <br />

@@ -1,10 +1,13 @@
 <h2>Manage Photos</h2>
+<p>
+  <%= link_to 'New Photo', new_photo_path %>
+</p>
 
 <p>
   <table style="border:none;" >
     <tr>
     </tr>
-  
+ 
     <% for photo in @photos %>
     <tr>
       <td>
@@ -20,9 +23,9 @@
             <h3><%= photo.page_title %></h3>
           </tr>
           <tr>
-            <td><%= link_to 'Show', photo %></td>
+            <td><%= link_to 'View', photo %></td>
             <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
-            <td><%= link_to 'Destroy', photo, :confirm => 'Are you sure?', :method => :delete %></td>
+            <td><%= link_to 'Delete', photo, :confirm => 'Are you sure?', :method => :delete %></td>
           </tr>
         </table>
       </td>
@@ -30,8 +33,8 @@
     <% end %>
   </table>
 </p>
-<br />
 <p>
-  <%= link_to 'New Photo', new_photo_path %>
+  <%= link_to 'New Photo', new_photo_path %> |
+  <%= render :partial => 'layouts/adminlinks'%>
 </p>
 <br />

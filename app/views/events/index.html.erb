@@ -1,5 +1,9 @@
 <h2>Upcoming Events &amp; Exhibits</h2>
 <p>
+  <%= link_to 'Create New Event', new_event_path %>
+</p>
+<br />
+<p>
   <% for event in @events %>
     <p>
       <b><%=h event.start_date.strftime("%m/%d") %> - <%=h event.end_date.strftime("%m/%d") %></b> ::
@@ -13,6 +17,6 @@
 </p>
 <p>
   <%= link_to 'Create New Event', new_event_path %> |
-  <%= link_to 'Manage Event Photos', event_photos_path %> | 
+  <%= render :partial => 'layouts/adminlinks'%>
 </p>
 <br />

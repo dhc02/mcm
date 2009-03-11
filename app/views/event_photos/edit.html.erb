@@ -3,19 +3,33 @@
 </h3>
 
 <% form_for(@event_photo) do |f| %>
-  <p><%= f.error_messages %></p>
   <p>
-  <%= image_tag @event_photo.photo.url(:thumb) %>    
+    <%= f.error_messages %>
   </p>
   <p>
-    <%= f.label "Associated Event" %>
+    <a href="<%= @event_photo.photo.url %>" rel="highslide" class="highslide" >
+      <%= image_tag @event_photo.photo.url(:thumb) %>
+    </a>
+  </p>
+  <p>
+    <%= f.label :caption %>:: <%= f.text_field :caption, :size => 100, :style => "width: 35em;" %>
+  </p>
+  <p>
+    <%= f.label "Associated Event" %>::<br />
     <%= collection_select( :event_photo, :event_id, Event.all, :id, :title ) %>
   </p>
+  <br />
+  <p>
+    <%= f.label "Upload a New Photo to Replace this one (optional)"%><br />
+    <%= f.file_field :photo %>
+  </p>
+  <br />
   <p>
     <%= f.submit "Update" %>
   </p>
 <% end %>
-
+<br />
 <p>
-  <%= link_to 'Show', @event_photo %> | <%= link_to 'Back', event_photos_path %>
+  <%= link_to 'View this Event Photo', @event_photo %> | 
+  <%= render :partial => 'layouts/adminlinks' %>
 </p>

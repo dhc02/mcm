@@ -1,5 +1,5 @@
 <%= javascript_include_tag :fckeditor %> 
-<h1>New Page</h1>
+<h3>New Page</h3>
 
 <% form_for(@page) do |f| %>
   <%= f.error_messages %>
@@ -22,4 +22,6 @@
 
 <% end %>
 
-<%= link_to 'Back', pages_path %>
+<p>
+  <%= render :partial => 'layouts/adminlinks' %>
+</p>

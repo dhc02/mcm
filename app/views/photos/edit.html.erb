@@ -5,17 +5,29 @@
 <% form_for(@photo) do |f| %>
   <p><%= f.error_messages %></p>
   <p>
-  <%= image_tag @photo.photo.url(:thumb) %>    
+    <a href="<%= @photo.photo.url %>" rel="highslide" class="highslide" >
+      <%= image_tag @photo.photo.url(:thumb) %>
+    </a>
   </p>
   <p>
-    <%= f.label "Page Name" %>
-    <%= collection_select( :photo, :page_id, Page.find(:all), :id, :title ) %>
+    <%= f.label :caption %>:: <%= f.text_field :caption, :size => 100, :style => "width: 35em;" %>
   </p>
+  <p>
+    <%= f.label "Associated Page" %>::<br />
+    <%= collection_select( :photo, :page_id, Page.all, :id, :title ) %>
+  </p>
+  <br />
+  <p>
+    <%= f.label "Upload a New Photo to Replace this one (optional)"%><br />
+    <%= f.file_field :photo %>
+  </p>
+  <br />
   <p>
     <%= f.submit "Update" %>
   </p>
 <% end %>
 
 <p>
-  <%= link_to 'Show', @_photo %> | <%= link_to 'Back', photos_path %>
+  <%= link_to 'View this Photo', @photo %> | 
+  <%= render :partial => 'layouts/adminlinks' %>
 </p>
