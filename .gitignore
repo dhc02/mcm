@@ -1,4 +1,1 @@
-/db/data.yml
-/config/environment.rb
-/config/environment.rb.online
-/config/environment.rb.offline
+/tmp/*.*
