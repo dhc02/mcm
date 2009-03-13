@@ -17,6 +17,7 @@ jQuery(document).ready(function() {
   $("img").each(function (){
     if ($(this).parent().is("a") != true) {
       var href = $(this).attr("src");
+      var replaced = escape(href);
       $(this).wrap("<a rel='highslide' class='highslide' href='" + href + "' ></a>");
     }
   });
