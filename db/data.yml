@@ -1,55 +1,5 @@
 
 --- 
-event_photos: 
-  columns: 
-  - id
-  - photo_file_name
-  - photo_content_type
-  - photo_file_size
-  - event_id
-  - caption
-  - created_at
-  - updated_at
-  - photo_updated_at
-  records: 
-  - - "1"
-    - IMG_2790.JPG
-    - image/jpeg
-    - "2943254"
-    - 
-    - 
-    - 2009-03-02 01:47:04
-    - 2009-03-02 01:47:04
-    - 2009-03-02 01:46:52
-  - - "2"
-    - 20061219-Pams-Cam-15.jpg
-    - image/jpeg
-    - "403826"
-    - "1"
-    - Donnie looking like an idiot
-    - 2009-03-02 06:33:49
-    - 2009-03-03 03:36:05
-    - 2009-03-02 06:33:39
-  - - "3"
-    - northern_sign.jpg
-    - image/jpeg
-    - "47109"
-    - "3"
-    - "\"Big Mountain\" in the Great Northern Bar"
-    - 2009-03-02 06:34:30
-    - 2009-03-03 07:57:22
-    - 2009-03-02 06:34:28
-  - - "4"
-    - image001.jpg
-    - image/jpeg
-    - "2155"
-    - "5"
-    - Test image
-    - 2009-03-03 08:42:43
-    - 2009-03-03 08:42:43
-    - 2009-03-03 08:42:42
-
---- 
 events: 
   columns: 
   - id
@@ -118,12 +68,14 @@ events:
     - Barbara
     - "2009-02-17"
     - "2009-03-22"
-    - "13:00:01"
-    - "17:00:01"
+    - 2000-01-02 01:00:01
+    - 2000-01-02 05:00:01
     - 2009-03-03 07:45:43
-    - 2009-03-06 05:29:44
+    - 2009-03-10 21:17:10
     - |-
       <p>Black History Exhibit</p>
+      <p>&nbsp;</p>
+      <p><span class="style1">Style1 content</span></p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
     - Black History Exhibit
@@ -141,6 +93,56 @@ events:
     - 2009-03-03 07:53:24
     - <p>shouldn't show up</p>
     - Exhibit
+
+--- 
+event_photos: 
+  columns: 
+  - id
+  - photo_file_name
+  - photo_content_type
+  - photo_file_size
+  - event_id
+  - caption
+  - created_at
+  - updated_at
+  - photo_updated_at
+  records: 
+  - - "1"
+    - IMG_2790.JPG
+    - image/jpeg
+    - "2943254"
+    - 
+    - 
+    - 2009-03-02 01:47:04
+    - 2009-03-02 01:47:04
+    - 2009-03-02 01:46:52
+  - - "2"
+    - 20061219-Pams-Cam-15.jpg
+    - image/jpeg
+    - "403826"
+    - "1"
+    - Donnie looking like an idiot
+    - 2009-03-02 06:33:49
+    - 2009-03-03 03:36:05
+    - 2009-03-02 06:33:39
+  - - "3"
+    - northern_sign.jpg
+    - image/jpeg
+    - "47109"
+    - "3"
+    - "\"Big Mountain\" in the Great Northern Bar"
+    - 2009-03-02 06:34:30
+    - 2009-03-03 07:57:22
+    - 2009-03-02 06:34:28
+  - - "4"
+    - image001.jpg
+    - image/jpeg
+    - "2155"
+    - "5"
+    - Test image
+    - 2009-03-03 08:42:43
+    - 2009-03-03 08:42:43
+    - 2009-03-03 08:42:42
 
 --- 
 pages: 

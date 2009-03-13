@@ -1,4 +1,4 @@
-*.sqlite3
-tmp
 /db/data.yml
-/config/initializers/site_keys.rb
+/config/environment.rb
+/config/environment.rb.online
+/config/environment.rb.offline
