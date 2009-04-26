@@ -1,100 +1,5 @@
 
 --- 
-events: 
-  columns: 
-  - id
-  - title
-  - body
-  - public
-  - created_by
-  - updated_by
-  - start_date
-  - end_date
-  - start_time
-  - end_time
-  - created_at
-  - updated_at
-  - teaser
-  - event_type
-  records: 
-  - - "1"
-    - Annual Art Show
-    - |-
-      <h3>Annual Art Show</h3>
-      <p style="width: 508px; height: 66px">The Bay City Art League hosts this year's&nbsp;annual art show held at the Museum March 31-April 24. All art will be displayed in the Stanley/Humphries Auditorium with a variety of mediums featured.&nbsp; This is a juried art show and showcases talented local artists.</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <ol style="width: 450px; height: 84px">
-          <li>The Art League will be registering art March 27 to be entered in the sho</li>
-          <li>An&nbsp;opening reception on Tuesday, March 31 from 1:00-5:00 will be free to the public</li>
-      </ol>
-      <p>&nbsp;</p>
-      <p><img height="150" alt="" width="112" src="/uploads/Image/IMG_2790_1.jpg" />&nbsp;</p>
-    - true
-    - Donnie
-    - Barbara
-    - "2009-03-31"
-    - "2009-04-24"
-    - "13:00:01"
-    - "17:00:01"
-    - 2009-03-01 08:47:51
-    - 2009-03-06 05:17:22
-    - <p>Art show featuring talented local artists</p>
-    - Exhibit
-  - - "2"
-    - Annual Quilt Show
-    - |-
-      <p style="width: 515px; height: 94px">From mid January-March the Memory Maker's Quilt Guild sponsors a Quilt Show in the Stanley/Humphries Auditorium.&nbsp; This year's theme &quot;World of Color&quot; features over 50 beautiful quilts, wall hangings and quilted items using a variety of fabrics, colors and techniques that will truly impress the visiting public.</p>
-      <p style="width: 515px; height: 150px">Each year a beautiful quilt is featured to be raffled off to support the Guild's many charitable projects for the community.&nbsp; This full size quilt was machine pieced and hand quilted by members of the Memory Maker's Quilt Guild.&nbsp; While you are here&nbsp;be sure&nbsp;and&nbsp;purchase your raffle tickets to support their worthwhile efforts.&nbsp; Good Luck!!!</p>
-      <p style="width: 515px; height: 150px"><img height="267" alt="2009 Raffle Quilt" hspace="10" width="200" vspace="10" border="12" src="/uploads/Image/Quilt 2009 Pics 004.jpg" /><img height="150" alt="Quilts and Quilted Items" hspace="10" width="200" vspace="10" border="12" src="/uploads/Image/Quilt 2009 Pics 006.jpg" /></p>
-    - true
-    - Donnie
-    - Barbara
-    - "2009-01-28"
-    - "2009-03-22"
-    - "10:00:00"
-    - "17:00:01"
-    - 2009-03-03 07:30:39
-    - 2009-03-06 22:56:33
-    - <p><img height="113" alt="Quilt Exhibit Opening " width="150" src="/uploads/Image/Quilts 2008 009.jpg" /></p>
-    - Quilt Show
-  - - "3"
-    - "Crowning Glory:  The History And Culture of African American Hairstyles"
-    - |-
-      <p>Each February-March the Matagorda County Museum hosts a Black History Exhibit sponsored in part by the Matagorda County African American Historical Society.&nbsp; This exhibit is held in the Museum Lobby and features tools, equipment, photos and more used to create hairstyles throughout the ages for African American men and women, along with text panels and a time line showing the history that led to such styles.</p>
-      <p>&nbsp;</p>
-    - true
-    - Donnie
-    - Barbara
-    - "2009-02-17"
-    - "2009-03-22"
-    - 2000-01-02 01:00:01
-    - 2000-01-02 05:00:01
-    - 2009-03-03 07:45:43
-    - 2009-03-10 21:17:10
-    - |-
-      <p>Black History Exhibit</p>
-      <p>&nbsp;</p>
-      <p><span class="style1">Style1 content</span></p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-    - Black History Exhibit
-  - - "4"
-    - Old Event
-    - <p>Shouldn't show up unless admin is specified.</p>
-    - true
-    - Donnie
-    - ""
-    - "2007-03-03"
-    - "2007-03-05"
-    - "07:52:00"
-    - "19:52:01"
-    - 2009-03-03 07:53:24
-    - 2009-03-03 07:53:24
-    - <p>shouldn't show up</p>
-    - Exhibit
-
---- 
 event_photos: 
   columns: 
   - id
@@ -145,6 +50,198 @@ event_photos:
     - 2009-03-03 08:42:42
 
 --- 
+events: 
+  columns: 
+  - id
+  - title
+  - body
+  - public
+  - created_by
+  - updated_by
+  - start_date
+  - end_date
+  - start_time
+  - end_time
+  - created_at
+  - updated_at
+  - teaser
+  - event_type
+  records: 
+  - - "1"
+    - Annual Art Show
+    - |-
+      <h3>Annual Art Show</h3>
+      <p style="width: 508px; height: 66px">The Bay City Art League hosts this year's&nbsp;annual art show held at the Museum March 31-April 24. All art will be displayed in the Stanley/Humphries Auditorium with a variety of mediums featured.&nbsp; This is a juried art show and showcases talented local artists.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <ol style="width: 450px; height: 143px">
+          <li>The Art League will be registering art March 27-29 to be entered in the show</li>
+          <li>An&nbsp;opening reception will be held on Tuesday, March 31 from 2:00-5:00</li>
+          <li>This is an LSAG Sanctioned Show</li>
+          <li>This event is supported by the Arts Council of Bay City</li>
+      </ol>
+      <p>&nbsp;</p>
+      <p><img height="150" alt="" width="112" src="/uploads/Image/IMG_2790_1.jpg" />&nbsp;</p>
+    - true
+    - Donnie
+    - Barbara
+    - "2009-03-31"
+    - "2009-04-24"
+    - "13:00:01"
+    - "17:00:01"
+    - 2009-03-01 08:47:51
+    - 2009-03-25 16:58:04
+    - <p>Art show featuring talented local artists</p>
+    - Exhibit
+  - - "2"
+    - Annual Quilt Show
+    - |-
+      <p style="width: 515px; height: 94px">From mid January-March the Memory Maker's Quilt Guild sponsors a Quilt Show in the Stanley/Humphries Auditorium.&nbsp; This year's theme &quot;World of Color&quot; features over 50 beautiful quilts, wall hangings and quilted items using a variety of fabrics, colors and techniques that will truly impress the visiting public.</p>
+      <p style="width: 515px; height: 91px">Each year a beautiful quilt is featured to be raffled off to support the Guild's many charitable projects for the community.&nbsp; This full size quilt was machine pieced and hand quilted by members of the Memory Maker's Quilt Guild.&nbsp; While you are here&nbsp;be sure&nbsp;and&nbsp;purchase your raffle tickets to support their worthwhile efforts.&nbsp; Good Luck!!!</p>
+      <p style="width: 515px; height: 150px"><img height="267" alt="2009 Raffle Quilt" hspace="10" width="200" vspace="10" border="12" src="/uploads/Image/Quilt 2009 Pics 004.jpg" /><img height="150" alt="Quilts and Quilted Items" hspace="10" width="200" vspace="10" border="12" src="/uploads/Image/Quilt 2009 Pics 006.jpg" /></p>
+    - true
+    - Donnie
+    - Barbara
+    - "2009-01-28"
+    - "2009-03-22"
+    - "13:00:01"
+    - "17:00:01"
+    - 2009-03-03 07:30:39
+    - 2009-03-12 20:17:52
+    - <p><img height="113" alt="Quilt Exhibit Opening " width="150" src="/uploads/Image/Quilts 2008 009.jpg" /></p>
+    - Quilt Show
+  - - "3"
+    - "Crowning Glory:  The History And Culture of African American Hairstyles"
+    - |-
+      <p>Each February-March the Matagorda County Museum hosts a Black History Exhibit sponsored in part by the Matagorda County African American Historical Society.&nbsp; This exhibit is held in the Museum Lobby and features tools, equipment, photos and more used to create hairstyles throughout the ages for African American men and women, along with text panels and a time line showing the history that led to such styles.</p>
+      <p>&nbsp;</p>
+    - true
+    - Donnie
+    - Barbara
+    - "2009-02-17"
+    - "2009-03-22"
+    - "13:00:01"
+    - "17:00:01"
+    - 2009-03-03 07:45:43
+    - 2009-03-06 05:29:44
+    - |-
+      <p>Black History Exhibit</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    - Black History Exhibit
+  - - "4"
+    - Old Event
+    - <p>Shouldn't show up unless admin is specified.</p>
+    - true
+    - Donnie
+    - ""
+    - "2007-03-03"
+    - "2007-03-05"
+    - "07:52:00"
+    - "19:52:01"
+    - 2009-03-03 07:53:24
+    - 2009-03-03 07:53:24
+    - <p>shouldn't show up</p>
+    - Exhibit
+  - - "5"
+    - Junior Art Show
+    - "<p style=\"width: 493px; height: 86px\">Each year the Matagorda County Museum hosts a Junior Art Show showcasing local high school and junior high artists.&nbsp;&nbsp;A variety of&nbsp;mediums is featured and the talent of these young&nbsp;artists is amazing!&nbsp;</p>"
+    - true
+    - Barbara
+    - Barbara
+    - "2009-03-25"
+    - "2009-05-19"
+    - "11:59:00"
+    - "17:00:01"
+    - 2009-03-25 17:59:41
+    - 2009-03-25 17:59:41
+    - <p>The front lobby will showcase Junior Artists from around the County</p>
+    - Exhibit
+  - - "6"
+    - "Larger Than Life: John Wayne"
+    - |-
+      <h3>Larger Than Life:&nbsp; John Wayne</h3>
+      <p>&nbsp;</p>
+      <p>From May 23rd through the summer months the Matagorda County Museum Lobby will feature a local resident's collection of John Wayne memoribilia that will bring back memories for&nbsp;the Baby Boomer generation and will introduce the younger viewer's to &quot;The Duke&quot;.&nbsp; The exhibit will feature&nbsp;numerous collectibles as well as videos of many of&nbsp;his memorable films&nbsp;playing throughout the day.&nbsp; &nbsp;</p>
+    - true
+    - Barbara
+    - Barbara
+    - "2009-05-23"
+    - "2009-09-13"
+    - "15:00:01"
+    - "05:00:00"
+    - 2009-03-27 19:21:37
+    - 2009-03-27 19:23:34
+    - |-
+      <p>A Tribute to John Wayne--A local resident's collection of John Wayne memoribilia makes a fun summer exhibit</p>
+      <p>&nbsp;</p>
+    - Exhibit
+  - - "7"
+    - Gourmet Guys
+    - |-
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gourmet Guys Visit the Orient</h2>
+      <p>&nbsp;</p>
+      <p>If you want to enjoy great food, drinks and company then you want to be at the Matagorda County Museum on October 3rd from 6:00-8:00 p.m. The first Saturday of October is the Museum's annual &quot;Gourmet Guys&quot; fundraiser and it gets bigger and better each year.&nbsp; A different theme is chosen each&nbsp;year and&nbsp;this year&nbsp;the &quot;Gourmet Guys Invite You to Spend an Evening in the Orient&quot;, with Oriental food being the featured fare.&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>Approximately 20-25 local &quot;gourmet chefs&quot; prepare delicious dishes for the museum supporters to enjoy throughout the evening, along with punch, wine and margaritas.&nbsp; All food and beverages throughout the evening are included in one low ticket price.&nbsp; We pre-sell tickets, but they may also be purchased at the door.</p>
+      <p>&nbsp;</p>
+      <p>Also featured is a Silent Auction with something for everyone, so be sure and bring your checkbook or credit card.&nbsp;&nbsp;&nbsp;We have something for everyone!</p>
+      <p>&nbsp;</p>
+      <p>All proceeds from this fundraiser so towards fulfilling our mission of providing quality educational, informative and fun exhibits and opportunities for our visitors.</p>
+      <p><img height="113" alt="Gourmet Guys &amp; Guests" width="150" src="/uploads/Image/Gourmet Guys 2008 Photos 024.jpg" />&nbsp; <img height="113" alt="May we serve you?" width="150" src="/uploads/Image/Gourmet Guys 2008 Photos 019.jpg" />&nbsp; <img height="113" alt="A few Silent Auciton items" width="150" src="/uploads/Image/Gourmet Guys 2008 Photos 009.jpg" /></p>
+    - true
+    - Barbara
+    - Barbara
+    - "2009-10-03"
+    - "2009-10-31"
+    - "14:24:01"
+    - "22:00:01"
+    - 2009-03-27 20:13:26
+    - 2009-03-27 20:13:26
+    - <p>Gourmet Guys Spend an Evening in the Orient</p>
+    - Fundraiser
+  - - "8"
+    - Festival of Trees
+    - |-
+      <p>During the Christmas Season the Matagorda County Museum is turned into a Winter Wonderland featuring over 50 trees, a blanket of snow and thousands of twinkle lights.&nbsp; Every year school groups, businesses and organizations pick a theme and decorate a tree in the museum&nbsp;and leave it until the first of the year for our visitors to enjoy.&nbsp; We open the exhibit&nbsp;the Thursday before Thanksgiving with &quot;Christmas Around the Square&quot; when all the Downtown businesses are open late and again on Sunday afternoon.</p>
+      <p>&nbsp;</p>
+      <p>During this Thursday and Sunday we offer free admission to the &quot;Festival of Trees' as a special gift&nbsp;to the&nbsp;community&nbsp;in celebration of the Holidays.&nbsp; This exhibit will run through December 31, 2009.</p>
+      <p>&nbsp;</p>
+      <p>If you would like to decorate a tree for this exhibit, pease e-mail us and we will send you a form to fill out.</p>
+    - true
+    - Barbara
+    - Barbara
+    - "2009-04-04"
+    - "2010-01-15"
+    - "12:05:01"
+    - "11:01:00"
+    - 2009-04-04 17:10:11
+    - 2009-04-04 17:11:31
+    - <p>Experience the beauty of the Holiday Season!</p>
+    - Exhibit
+  - - "9"
+    - Gourmet Guys
+    - |-
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gourmet Guys</h2>
+      <p style="width: 520px; height: 19px">&nbsp;</p>
+      <p style="width: 520px; height: 60px">The first Saturday in October the Museum will be transformed into Oriental Splendor as the Gourmet Guys spend an Evening in the Orient.&nbsp; Gourmet&nbsp;fare will be prepared by our 20+ gourmet cooks which you may sample to your heart's delight, along with punch, wine and Margaritas, all for one low ticket price.</p>
+      <p style="width: 520px; height: 29px">&nbsp;</p>
+      <p style="width: 520px; height: 60px">This fundraiser also includes an excellent Silent Auction, so be sure to bring your checkbook or credit cards.&nbsp; The monies raised from this event go towards providing exceptional educational and fun exhibits and programs that enable the Museum to&nbsp;fulfill its mission statement.</p>
+      <p style="width: 520px; height: 17px">&nbsp;</p>
+      <p style="width: 520px; height: 59px">&nbsp;</p>
+    - true
+    - Barbara
+    - Barbara
+    - "2009-04-08"
+    - "2009-10-15"
+    - "14:00:01"
+    - "12:01:01"
+    - 2009-04-08 20:24:39
+    - 2009-04-08 20:50:50
+    - <p>Spend and Evening in the Orient with the Gourmet Guys</p>
+    - Fundraiser
+
+--- 
 pages: 
   columns: 
   - id
@@ -156,88 +253,83 @@ pages:
   records: 
   - - "1"
     - Photos
-    - 
-    - <h2>Photos</h2>
+    - Barbara
+    - |-
+      <h2>Photos</h2>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p><img height="131" alt="Front View of the Museum" width="175" src="/uploads/Image/Museum Photos 018.jpg" /></p>
+      <p>Construction of this building began in the spring of 1917 and was opened to the public on May 15, 1918 as a Federal Post Office. The Matagorda County Museum Association, formed in 1963, had outgrown its facility and purchased the building in 1990.&nbsp; After extensive renovation it was reopened to the public in 1992.&nbsp; Much care was used in retaining as many of the elements of the original building as possible while adapting it to its new purpose.</p>
+      <p><img height="113" alt="Texas Independence Symbol--" width="150" the="" remember="" src="/uploads/Image/Museum Photos 001.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="113" alt="1800's Chuckwagon" width="150" src="/uploads/Image/Museum Photos 002.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="131" alt="Legends, Literature and Lingo" width="98" src="/uploads/Image/Museum Photos 006.jpg" /></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Top and Bottom:&nbsp; Exhibits in the Matagorda County Museum</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height="113" alt="LaBelle Cannon" width="150" src="/uploads/Image/LaBelle 007.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <img height="113" alt="LaBelle Replica" width="150" src="/uploads/Image/LaBelle 006.jpg" /></p>
+      <p>&nbsp;</p>
     - 2009-03-03 04:47:09
-    - 2009-03-03 04:47:09
+    - 2009-03-12 20:04:34
   - - "2"
     - Children's Museum
     - Barbara
     - |-
-      <h2>&nbsp;&nbsp;&nbsp;
+      <h2>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
+      &nbsp;&nbsp;&nbsp;
       <div style="margin: 0in 0in 0pt">&nbsp;&nbsp; &quot;OUR TOWN&quot; Children's Museum</div>
       <div style="margin: 0in 0in 0pt">&nbsp;</div>
       <div style="margin: 0in 0in 0pt">&nbsp;</div>
-      <div style="margin: 0in 0in 0pt">&nbsp;<img alt="A Young Cowboy in the Corral" style="width: 197px; height: 164px" src="/uploads/Image/Cowboy Braden 013.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="165" alt="Boot Trouble " width="220" src="/uploads/Image/Braden's 4th b-day 008.jpg" /></div>
+      <div style="margin: 0in 0in 0pt">&nbsp;<img height="113" alt="A Young Cowboy in the Corral" width="150" src="/uploads/Image/Cowboy Braden 013.jpg" />&nbsp;<img height="113" alt="Boot Trouble " width="150" src="/uploads/Image/Braden's 4th b-day 008.jpg" />&nbsp;<img height="113" alt="May I Pour You a Root Beer?" width="150" src="/uploads/Image/Christopher in CM 004.jpg" /></div>
       &nbsp;</h2>
       <p class="style1">Children Returning to Yesteryear in the Children's Museum</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-      <p class="MsoNormal" style="margin: 0in 0in 7.5pt; width: 477px; line-height: 18pt; height: 420px; mso-outline-level: 2"><span new="" calisto="" style="font-size: 18pt; color: #336699; font-family: ">The Matagorda County Children&rsquo;s Museum is a treat for all ages. Built to represent an 1890-1910 small town, it is fully furnished and completely hands-on.&nbsp;You can leave your horse in the O.K. Corral, go to school in the one-room schoolhouse, visit the toy shop full of wind-up toys, shop in the General Store and take your purchases home to the prairie house after mailing your letters at the Post Office. The young cowboys might&nbsp;have a shave and haircut at the barber shop&nbsp;while the young ladies&nbsp;get all gussied up with clothing from the dress shop to enjoy a night out at the Opera House. Just make sure you don&rsquo;t rob the bank and get thrown in the hoose-gow (that's jail to you city slickers)!&nbsp;<o:p></o:p></span></p>
+      <p class="MsoNormal" style="margin: 0in 0in 7.5pt; width: 477px; line-height: 18pt; height: 420px; mso-outline-level: 2"><span calisto="" new="" style="font-size: 18pt; color: #336699; font-family: ">The Matagorda County Children&rsquo;s Museum is a treat for all ages. Built to represent an 1890-1910 small town, it is fully furnished and completely hands-on.&nbsp;You can leave your horse in the O.K. Corral, go to school in the one-room schoolhouse, visit the toy shop full of wind-up toys, shop in the General Store and take your purchases home to the prairie house after mailing your letters at the Post Office. The young cowboys might&nbsp;have a shave and haircut at the barber shop&nbsp;while the young ladies&nbsp;get all gussied up with clothing from the dress shop to enjoy a night out at the Opera House. Just make sure you don&rsquo;t rob the bank and get thrown in the hoose-gow (that's jail to you city slickers)!&nbsp;<o:p></o:p></span></p>
       <p class="MsoNormal" style="margin: 0in 0in 10pt"><span style="font-size: 18pt; line-height: 115%"><o:p><font face="Calibri" color="#000000">&nbsp;</font></o:p></span></p>
-      <h2><span style="color: #ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Children's Museum is the&nbsp;</span></h2>
-      <h2><span style="color: #ff0000">&nbsp;&nbsp;&nbsp;&nbsp; Perfect Place for a&nbsp;Birthday Party!</span></h2>
+      <h2><span style="color: #ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Children's Museum is the&nbsp;</span></h2>
+      <h2><span style="color: #ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perfect Place for a&nbsp;Birthday Party!</span></h2>
       <h3><span style="color: #ff0000">&nbsp;</span></h3>
       <p class="MsoHeading8" style="margin: 0in 0in 0pt"><strong><font face="Curlz MT" color="#009900" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Option I</font></strong></p>
       <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><span><font size="3"><strong>(You do some of the work)</strong><o:p></o:p></font></span></p>
       <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><font size="3"><b><span curlz="" style="color: blue; font-family: ">$100.00</span></b><b><span curlz="" style="font-family: "><o:p></o:p></span></b></font></p>
       <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="font-family: "><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3">We Provide:<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; width: 444px; text-indent: -0.25in; height: 20px; tab-stops: list .5in; mso-list: l1 level1 lfo1"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Admission for up to 20 children<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l1 level1 lfo1"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">A Children&rsquo;s Museum T-Shirt for the Birthday Boy or Girl</font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt; text-indent: 0.5in"><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Goody Bags for all the Guests</font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l1 level1 lfo1"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">&nbsp; </font></span></b></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3">We Provide:</font></span></b></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3"><span style="color: #0000ff">&nbsp;&nbsp;&nbsp;&nbsp; Admission for up to 20 children</span></font></span></b></p>
+      <h3><b><span curlz="" style="color: red; font-family: "><font size="3"><span style="color: #0000ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Children's Museum T-Shirt for the birthday boy or </span></font></span></b><b><span curlz="" style="color: red; font-family: "><font size="3"><span style="color: #0000ff">girl</span></font></span></b></h3>
+      <h3><b><span curlz="" style="color: red; font-family: "><font size="3"><span style="color: #0000ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Goody bags for all the guests</span></font></span></b></h3>
       <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: lime; font-family: "><font size="3">&nbsp;<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 45px; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3">You Provide:<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l2 level1 lfo2"><span wingdings="" style="color: #ff0066; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #ff0066; font-family: "><font size="3">Refreshments of your choice</font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l2 level1 lfo2"><span wingdings="" style="color: #ff0066; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #ff0066; font-family: "><font size="3">Decorations (if you want them)<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l2 level1 lfo2"><span wingdings="" style="color: #ff0066; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #ff0066; font-family: "><font size="3">Paper Goods &ndash; plates, napkins, cups</font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l2 level1 lfo2"><span wingdings="" style="color: #ff0066; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp;</span></span><b><span curlz="" style="color: #ff0066; font-family: "><font size="3">&nbsp; </font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: #ff0066; font-family: "><font size="3">&nbsp;<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: fuchsia; font-family: "><font size="3">Typical Party Schedule:<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><b><span curlz="" style="color: #009999; font-family: "><font size="3">Birthday Family Arrives to decorate 30 minutes before party--12:00 on Saturday,&nbsp;2:00 on Sunday, 5:00 on Weekdays</font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><b><span curlz="" style="color: #009999; font-family: "><font size="3">Time for Party&ndash; Guests Arrive &hellip; Children&rsquo;s Museum&nbsp;is opened for attendees to play for 1 hour<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><b><span curlz="" style="color: #009999; font-family: "><font size="3">Guests go to the Garden Room for cake and gift opening<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><b><span curlz="" style="color: #009999; font-family: "><font size="3"><span style="mso-spacerun: yes">Guests Leave with goody bags&nbsp;</span> </font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><b><span curlz="" style="color: #009999; font-family: "><font size="3">Clean-up<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><b><span curlz="" style="color: #009999; font-family: "><font size="3">&nbsp;<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><b><span curlz="" style="color: #ff6600; font-family: "><font size="3">Other days &amp; times available-call for info.<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" align="right" style="margin: 0in 0in 0pt; text-align: right"><b><span century="" style="font-size: 8pt; color: #009999; font-family: ">09/08</span></b><b><span century="" style="font-size: 8pt; font-family: "><o:p></o:p></span></b></p>
-      <p class="MsoHeading8" style="margin: 0in 0in 0pt"><strong><font face="Curlz MT" color="#009900" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></strong><font size="3"><b><span curlz="" style="color: red; font-family: ">&nbsp;</span></b></font><strong><font face="Curlz MT" color="#009900" size="5">Option II</font></strong></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3">You Provide:</font></span></b></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 34px; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3"><span style="color: #339966"><span style="color: #ff0000">Refreshments </span></span></font></span></b></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 34px; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3"><span style="color: #339966"><span style="color: #ff0000">Decorations--if you want them</span></span></font></span></b></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 34px; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3"><span style="color: #339966"><span style="color: #ff0000">Paper goods</span></span></font></span></b></p>
+      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l2 level1 lfo2">&nbsp;</p>
+      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l2 level1 lfo2">&nbsp;<strong><font face="Curlz MT" color="#009900" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></strong><strong><font face="Curlz MT" color="#009900" size="5">Option II</font></strong></p>
       <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><span><font size="3"><strong>(We do all the work!!)</strong><o:p></o:p></font></span></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
+      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.25in"><b><span curlz="" style="color: blue; font-family: "><font size="3">&nbsp;</font></span></b></p>
       <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><font size="3"><b><span curlz="" style="color: blue; font-family: ">$200.00</span></b><b><span curlz="" style="font-family: "><o:p></o:p></span></b></font></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="font-family: "><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><font size="3"><b><span curlz="" style="color: red; font-family: ">We Provide</span></b><b><span curlz="" style="font-family: "><font color="#000000">:<o:p></o:p></font></span></b></font></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; width: 466px; text-indent: -0.25in; height: 20px; tab-stops: list .5in; mso-list: l3 level1 lfo3"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Admission for up to 20 children<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l3 level1 lfo3"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">A Children&rsquo;s Museum T-Shirt<o:p></o:p></font></span></b> <b><span curlz="" style="color: #6600ff; font-family: "><font size="3">for the Birthday Boy or Girl<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Goody Bags for All the Children<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Decorations<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Birthday Cake<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Ice Cream<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Punch<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Birthday Plates and Napkins<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Plasticware and cups<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span curlz="" style="color: #6600ff; font-family: "><font size="3">Clean-up<o:p></o:p></font></span></b></p>
+      <h3><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Admission for up to 20 Children</span></span></h3>
+      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Children's Museum T-Shirt for the Birthday boy or girl</span></span></p>
+      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goody Bags for all the guests</span></span></p>
+      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Decorations</span></span></p>
+      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Refreshments--Cake, Punch &amp; Ice Cream</span></span></p>
+      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paper Goods</span></span></p>
+      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clean-up</span></span></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
       <p class="MsoNormal" style="margin: 0in 0in 0pt 0.25in"><b><span curlz="" style="color: blue; font-family: "><font size="3">&nbsp;<o:p></o:p></font></span></b></p>
-      <p class="MsoBodyText3" style="margin: 0in 0in 0pt; width: 527px; height: 40px"><span style="color: #ff6600"><strong><font size="3"><font face="Curlz MT">Birthday parties can also be scheduled after school, and on weekday&nbsp;mornings during the summer.<o:p></o:p></font></font></strong></span></p>
+      <p class="MsoBodyText3" style="margin: 0in 0in 0pt"><span style="color: #ff6600"><strong><font size="3"><font face="Curlz MT">Birthday parties can also be scheduled after school, Sunday afternoon, staff permitting, and on weekday mornings during the summer.<o:p></o:p></font></font></strong></span></p>
+      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.25in"><o:p></o:p></p>
       <p class="MsoNormal" style="margin: 0in 0in 0pt"><span curlz="" style="font-family: "><strong><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></strong></span></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 43px; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3">Call<o:p></o:p></font></span></b></p>
-      <p align="center" style="margin: 0in 0in 0pt; width: 536px; height: 95px; text-align: center"><b><span curlz="" style="font-size: 26pt; color: red; font-family: ">979-245-7502</span></b></p>
-      <p align="center" style="margin: 0in 0in 0pt; width: 536px; height: 57px; text-align: center"><font size="3"><b><span curlz="" style="color: red; font-family: ">for party reservations</span></b><b><span curlz="" style="font-family: "><o:p></o:p></span></b></font></p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 536px; height: 32px; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3">Call<o:p></o:p></font></span></b></p>
+      <p align="center" style="margin: 0in 0in 0pt; width: 537px; height: 61px; text-align: center"><b><span curlz="" style="font-size: 26pt; color: red; font-family: ">979-245-7502</span></b></p>
+      <p align="center" style="margin: 0in 0in 0pt; width: 537px; height: 79px; text-align: center"><font size="3"><b><span curlz="" style="color: red; font-family: ">for party reservations</span></b><b><span curlz="" style="font-family: "><o:p></o:p></span></b></font></p>
       <p>&nbsp;</p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span wingdings="" style="color: #6600ff; font-family: "><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal"><img alt="Children Enjoying a Birthday Party" style="width: 256px; height: 210px" src="/uploads/Image/Birthday Photos 014.jpg" /></span></span></p>
       <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&nbsp;&nbsp; </font></span></p>
       <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><b><span curlz="" style="color: #6600ff; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
       <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4">&nbsp;</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4">&nbsp;</p>
       <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp; </span></span></p>
       <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><b><span curlz="" style="color: #6600ff; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&aacute;</font><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><b><span curlz="" style="color: #6600ff; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.25in"><b><span curlz="" style="color: blue; font-family: "><font size="3">&nbsp;<o:p></o:p></font></span></b></p>
-      <p class="MsoBodyText3" style="margin: 0in 0in 0pt">&nbsp;</p>
-      <p class="MsoBodyText3" style="margin: 0in 0in 0pt"><span style="color: #ff6600"><strong><font size="3"><font face="Curlz MT"><o:p></o:p></font></font></strong></span></p>
+      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><b><span curlz="" style="color: #6600ff; font-family: "><font size="3"><o:p></o:p></font></span></b><span style="color: #ff6600"><strong><font size="3"><font face="Curlz MT"><o:p></o:p></font></font></strong></span></p>
       <p class="MsoNormal" style="margin: 0in 0in 0pt"><span curlz="" style="font-family: "><strong><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></strong></span></p>
       <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 29px; text-align: center">&nbsp;</p>
       <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 29px; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
@@ -251,19 +343,41 @@ pages:
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
+      <p>&nbsp;</p>
+      <p style="width: 73px; height: 7px">&nbsp;</p>
+      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 503px; height: 20px; text-align: center"><b><span style="font-family: 'Curlz MT'"><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></span></b></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
     - 2009-03-03 05:28:22
-    - 2009-03-06 22:24:28
+    - 2009-03-18 19:15:54
   - - "3"
     - Current Exhibits
     - Barbara
     - |-
-      <h2>Current Exhibits</h2>
-      <h3>Photos of Current Exhibits</h3>
-      <p>Some sample text with an <span class="style1">inline highlight</span> for illustration.</p>
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MUSEUM EXHIBITS &amp; EVENTS</h2>
+      <p>&nbsp;</p>
+      <p><img height="113" alt="Chamber Mixer" width="150" src="/uploads/Image/Chamber Mixer 2008 006.jpg" />&nbsp;&nbsp; <img height="113" alt="LaBelle Cannon" width="150" src="/uploads/Image/LaBelle 003.jpg" />&nbsp;&nbsp; <img height="113" alt="1800's Chuckwagon" width="150" src="/uploads/Image/Miscellaneous 044.jpg" /></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p><img height="113" alt="Karankawa Indians" width="150" src="/uploads/Image/Miscellaneous 089.jpg" />&nbsp;&nbsp;&nbsp;<img height="113" alt="Scene from the Gusman Gallery" width="150" src="/uploads/Image/Miscellaneous 066.jpg" />&nbsp;&nbsp;&nbsp;<img height="113" alt="Fossil Display" width="150" src="/uploads/Image/Miscellaneous 083.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;<img height="113" alt="Annual Quilt Show" width="150" src="/uploads/Image/Quilt 2009 Pics 007.jpg" />&nbsp;&nbsp;&nbsp;&nbsp; <img height="113" alt="Gourmet Guys Fun" width="150" src="/uploads/Image/Gourmet Guys 2005 046.jpg" />&nbsp;&nbsp; <img height="113" alt="Festival of Trees" width="150" src="/uploads/Image/Festival of Trees2004 019.jpg" /></p>
+      <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>Blah <span class="style1">Blah</span> Blah</p>
     - 2009-03-03 05:33:05
-    - 2009-03-06 22:43:22
+    - 2009-04-04 16:10:51
   - - "4"
     - Rent Our Facilities
     - 
@@ -310,67 +424,18 @@ pages:
       <br />
       Through exhibition and development of educational programming we make the museum a <span class="style1">cultural experience</span> and destination.</p>
       <p>&nbsp;</p>
-      <p style="width: 194px; height: 31px;">Matagorda County Museum</p>
-      <p style="width: 181px; height: 26px;">2100 Ave. F</p>
-      <p style="width: 181px; height: 27px;">Bay City, TX 77414</p>
-      <p style="width: 181px; height: 32px;">979-245-7502</p>
-      <p style="width: 185px; height: 55px;"><a href="mailto:mcma@matagordamuseum.com">mcma@matagordamuseum.com</a></p>
+      <p style="width: 194px; height: 31px">Matagorda County Museum</p>
+      <p style="width: 181px; height: 26px">2100 Ave. F</p>
+      <p style="width: 181px; height: 27px">Bay City, TX 77414</p>
+      <p style="width: 181px; height: 32px">979-245-7502</p>
+      <p style="width: 181px; height: 32px">979-245-1233-fax</p>
+      <p style="width: 185px; height: 55px"><a href="mailto:mcma@matagordamuseum.com">mcma@matagordamuseum.com</a></p>
       <p><strong>Hours of Operation:</strong></p>
-      <p style="width: 264px; height: 22px;">Wednesday-Sunday&nbsp; 1:00-5:00 p.m.</p>
-      <p style="width: 330px; height: 20px;">Morning Tours&nbsp;Available for Groups--Call to Schedule&nbsp;</p>
-      <p style="width: 329px; height: 23px;">&nbsp;</p>
+      <p style="width: 264px; height: 22px">Wednesday-Sunday&nbsp; 1:00-5:00 p.m.</p>
+      <p style="width: 330px; height: 20px">Morning Tours&nbsp;Available for Groups--Call to Schedule&nbsp;</p>
+      <p style="width: 329px; height: 23px">&nbsp;</p>
       <p><strong>Admission Prices:</strong></p>
       <p><strong>$4.00-Adults&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.00-Srs. over 50&nbsp;&nbsp;&nbsp; $2.00-Children 3 &amp; Up</strong></p>
       <p><strong>Scheduled Tours--$2.00 per person--Teachers, Chaperones, Bus Drivers--Free</strong></p>
     - 2009-03-03 06:47:32
-    - 2009-03-05 16:06:58
-
---- 
-photos: 
-  columns: 
-  - id
-  - photo_file_name
-  - photo_content_type
-  - photo_file_size
-  - page_id
-  - caption
-  - photo_updated_at
-  - created_at
-  - updated_at
-  records: 
-  - - "1"
-    - IMG_1527.JPG
-    - image/jpeg
-    - "3320897"
-    - "5"
-    - Idyllic scene, Riverside Park, Downtown Whitefish
-    - 2009-03-03 04:32:17
-    - 2009-03-03 04:32:27
-    - 2009-03-04 04:25:12
-  - - "2"
-    - DSC00023.JPG
-    - image/jpeg
-    - "2138424"
-    - 
-    - Snowghosts in Whitefish
-    - 2009-03-03 04:37:15
-    - 2009-03-03 04:37:22
-    - 2009-03-03 04:37:22
-  - - "3"
-    - 20070408_Whitefish_Beach_Landscape.jpg
-    - image/jpeg
-    - "155425"
-    - "1"
-    - Whitefish Beach Landscape
-    - 2009-03-03 05:12:56
-    - 2009-03-03 05:12:59
-    - 2009-03-03 05:12:59
-  - - "4"
-    - IMG_2464.JPG
-    - image/jpeg
-    - "2926745"
-    - "6"
-    - Family Photo
-    - 2009-03-03 07:22:13
-    - 2009-03-03 07:22:21
-    - 2009-03-03 07:22:21
+    - 2009-03-12 20:07:44
