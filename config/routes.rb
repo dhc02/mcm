@@ -18,7 +18,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect 'exhibits', :controller => 'pages', :action => 'show', :id => 3
   map.connect 'rentourfacilities', :controller => 'pages', :action => 'show', :id => 4
   map.connect 'contactus', :controller => 'pages', :action => 'show', :id => 5
-  map.connect 'links', :controller => 'pages', :action => 'show', :id => 6
+  map.connect 'links', :controller => 'pages', :action => 'show', :id => 7
   
   # The priority is based upon order of creation: first created -> highest priority.
 
