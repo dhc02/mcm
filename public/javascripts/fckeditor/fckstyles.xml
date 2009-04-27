@@ -66,8 +66,7 @@
   <Style name="Heading" element="h2" />
 	<Style name="Subhead" element="h3" />
   <Style name="Collapsing Subhead" element="p">
-    <Attribute name="class" value="subhead" />
-    <Attribute name="class" value="style1" />
+    <Attribute name="class" value="style1 subhead" />
   </Style>
 	<Style name="Inline Red Bold" element="span">
 	  <Attribute name="class" value="style1" />

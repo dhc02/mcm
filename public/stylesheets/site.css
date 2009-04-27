@@ -163,6 +163,14 @@
 	font-size: 15px;
 	letter-spacing: 0px;
 }
+
+#right_ p.subhead {
+  color: #CC0000;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0px;
+}
+
 #right_ p span.bg{
 	color: #799fbb;
 }
