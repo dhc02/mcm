@@ -321,6 +321,19 @@ th, td {
   background-color: lightgray;
 }
 
+#photos {
+  width: 575px;
+}
+
+a.photo {
+  margin-left: 0px !important;
+}
+
+img.photo {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
 /* #footer2_  a{
   background: no-repeat;
   color: #333333;
