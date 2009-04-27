@@ -257,14 +257,10 @@ pages:
     - |-
       <h2>Photos</h2>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-      <p><img height="131" alt="Front View of the Museum" width="175" src="/uploads/Image/Museum Photos 018.jpg" /></p>
       <p>Construction of this building began in the spring of 1917 and was opened to the public on May 15, 1918 as a Federal Post Office. The Matagorda County Museum Association, formed in 1963, had outgrown its facility and purchased the building in 1990.&nbsp; After extensive renovation it was reopened to the public in 1992.&nbsp; Much care was used in retaining as many of the elements of the original building as possible while adapting it to its new purpose.</p>
-      <p><img height="113" alt="Texas Independence Symbol--" width="150" the="" remember="" src="/uploads/Image/Museum Photos 001.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="113" alt="1800's Chuckwagon" width="150" src="/uploads/Image/Museum Photos 002.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<img height="131" alt="Legends, Literature and Lingo" width="98" src="/uploads/Image/Museum Photos 006.jpg" /></p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Top and Bottom:&nbsp; Exhibits in the Matagorda County Museum</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height="113" alt="LaBelle Cannon" width="150" src="/uploads/Image/LaBelle 007.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <img height="113" alt="LaBelle Replica" width="150" src="/uploads/Image/LaBelle 006.jpg" /></p>
       <p>&nbsp;</p>
     - 2009-03-03 04:47:09
-    - 2009-03-12 20:04:34
+    - 2009-04-27 02:24:52
   - - "2"
     - Children's Museum
     - Barbara
@@ -575,42 +571,60 @@ photos:
   - created_at
   - updated_at
   records: 
-  - - "1"
-    - IMG_1527.JPG
+  - - "5"
+    - Museum_Photos_018.jpg
     - image/jpeg
-    - "3320897"
-    - "5"
-    - Idyllic scene, Riverside Park, Downtown Whitefish
-    - 2009-03-03 04:32:17
-    - 2009-03-03 04:32:27
-    - 2009-03-04 04:25:12
-  - - "2"
-    - DSC00023.JPG
-    - image/jpeg
-    - "2138424"
-    - 
-    - Snowghosts in Whitefish
-    - 2009-03-03 04:37:15
-    - 2009-03-03 04:37:22
-    - 2009-03-03 04:37:22
-  - - "3"
-    - 20070408_Whitefish_Beach_Landscape.jpg
-    - image/jpeg
-    - "155425"
+    - "1130008"
     - "1"
-    - Whitefish Beach Landscape
-    - 2009-03-03 05:12:56
-    - 2009-03-03 05:12:59
-    - 2009-03-03 05:12:59
-  - - "4"
-    - IMG_2464.JPG
+    - The Historic Bay City Post Office Building
+    - 2009-04-27 02:26:01
+    - 2009-04-27 02:26:04
+    - 2009-04-27 02:26:04
+  - - "6"
+    - Museum_Photos_001.jpg
     - image/jpeg
-    - "2926745"
-    - "6"
-    - Family Photo
-    - 2009-03-03 07:22:13
-    - 2009-03-03 07:22:21
-    - 2009-03-03 07:22:21
+    - "520192"
+    - "1"
+    - An Exhibit at the Matagorda Museum
+    - 2009-04-27 02:27:30
+    - 2009-04-27 02:27:33
+    - 2009-04-27 02:27:33
+  - - "7"
+    - Museum_Photos_002.jpg
+    - image/jpeg
+    - "481900"
+    - "1"
+    - An Exhibit at the Matagorda Museum
+    - 2009-04-27 02:28:13
+    - 2009-04-27 02:28:16
+    - 2009-04-27 02:28:16
+  - - "8"
+    - Museum_Photos_006.jpg
+    - image/jpeg
+    - "512188"
+    - "1"
+    - An Exhibit at the Matagorda Museum
+    - 2009-04-27 02:28:49
+    - 2009-04-27 02:28:54
+    - 2009-04-27 02:28:54
+  - - "9"
+    - LaBelle_006.jpg
+    - image/jpeg
+    - "445872"
+    - "1"
+    - LaSalle's LaBelle sank in Matagorda Bay. Parts of it are on display in the Matagorda County Museum.
+    - 2009-04-27 02:29:56
+    - 2009-04-27 02:29:59
+    - 2009-04-27 02:29:59
+  - - "10"
+    - LaBelle_007.jpg
+    - image/jpeg
+    - "425812"
+    - "1"
+    - LaSalle's LaBelle sank in Matagorda Bay. Parts of it are on display in the Matagorda County Museum.
+    - 2009-04-27 02:30:22
+    - 2009-04-27 02:30:25
+    - 2009-04-27 02:30:25
 
 --- 
 users: 
@@ -634,5 +648,15 @@ users:
     - da6f21a020e967e34716c63a7a78b669c0cf3401
     - 2009-04-26 22:40:18
     - 2009-04-26 22:40:18
+    - 
+    - 
+  - - "2"
+    - mcma
+    - ""
+    - mcma@matagordamuseum.com
+    - 4911371a15053b709dd5293041fceaaf0da63e8e
+    - cb845d95ce377cebd3937efceaf3402cdfbd6c0f
+    - 2009-04-27 01:47:41
+    - 2009-04-27 01:47:41
     - 
     - 
