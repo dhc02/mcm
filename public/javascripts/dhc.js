@@ -7,8 +7,6 @@ hs.registerOverlay({
   		hideOnMouseOut: true
 });
 hs.outlineType = 'rounded-white';
-// Tell Highslide to use the thumbnail's title for captions
-hs.captionEval = 'this.thumb.title';
 hs.showCredits = false;
 
 
