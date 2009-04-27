@@ -1,55 +1,5 @@
 
 --- 
-event_photos: 
-  columns: 
-  - id
-  - photo_file_name
-  - photo_content_type
-  - photo_file_size
-  - event_id
-  - caption
-  - created_at
-  - updated_at
-  - photo_updated_at
-  records: 
-  - - "1"
-    - IMG_2790.JPG
-    - image/jpeg
-    - "2943254"
-    - 
-    - 
-    - 2009-03-02 01:47:04
-    - 2009-03-02 01:47:04
-    - 2009-03-02 01:46:52
-  - - "2"
-    - 20061219-Pams-Cam-15.jpg
-    - image/jpeg
-    - "403826"
-    - "1"
-    - Donnie looking like an idiot
-    - 2009-03-02 06:33:49
-    - 2009-03-03 03:36:05
-    - 2009-03-02 06:33:39
-  - - "3"
-    - northern_sign.jpg
-    - image/jpeg
-    - "47109"
-    - "3"
-    - "\"Big Mountain\" in the Great Northern Bar"
-    - 2009-03-02 06:34:30
-    - 2009-03-03 07:57:22
-    - 2009-03-02 06:34:28
-  - - "4"
-    - image001.jpg
-    - image/jpeg
-    - "2155"
-    - "5"
-    - Test image
-    - 2009-03-03 08:42:43
-    - 2009-03-03 08:42:43
-    - 2009-03-03 08:42:42
-
---- 
 events: 
   columns: 
   - id
@@ -242,6 +192,56 @@ events:
     - Fundraiser
 
 --- 
+event_photos: 
+  columns: 
+  - id
+  - photo_file_name
+  - photo_content_type
+  - photo_file_size
+  - event_id
+  - caption
+  - created_at
+  - updated_at
+  - photo_updated_at
+  records: 
+  - - "1"
+    - IMG_2790.JPG
+    - image/jpeg
+    - "2943254"
+    - 
+    - 
+    - 2009-03-02 01:47:04
+    - 2009-03-02 01:47:04
+    - 2009-03-02 01:46:52
+  - - "2"
+    - 20061219-Pams-Cam-15.jpg
+    - image/jpeg
+    - "403826"
+    - "1"
+    - Donnie looking like an idiot
+    - 2009-03-02 06:33:49
+    - 2009-03-03 03:36:05
+    - 2009-03-02 06:33:39
+  - - "3"
+    - northern_sign.jpg
+    - image/jpeg
+    - "47109"
+    - "3"
+    - "\"Big Mountain\" in the Great Northern Bar"
+    - 2009-03-02 06:34:30
+    - 2009-03-03 07:57:22
+    - 2009-03-02 06:34:28
+  - - "4"
+    - image001.jpg
+    - image/jpeg
+    - "2155"
+    - "5"
+    - Test image
+    - 2009-03-03 08:42:43
+    - 2009-03-03 08:42:43
+    - 2009-03-03 08:42:42
+
+--- 
 pages: 
   columns: 
   - id
@@ -380,41 +380,151 @@ pages:
     - 2009-04-04 16:10:51
   - - "4"
     - Rent Our Facilities
-    - 
-    - <h2>Rent Our Facilities</h2>
+    - Donnie
+    - |-
+      <h2>Renting our Facilities</h2>
+      <p>The Matagorda County Museum is a <span class="style2">dynamic</span> educational institution that engages visitors in the exciting story of the history of Matagorda County through a variety of program and exhibit experiences.</p>
+      <p>We are pleased to offer rental of the Museum for business meetings, banquets, receptions, birthday parties, and other events.  Please note that such activities may not interfere with the normal public operation of the Museum and are subject to the policies and procedures listed below.  The Museum cannot be used for discriminatory practices and reserves the right to refuse rental to individuals, organizations, or events that discriminate on the basis of race, color, ethnicity, gender, age, religion, or disability.</p>
+      <p>When you're ready, you can <a target="_blank" href="/images/RentalAgreement.pdf">download</a> our rental agreement.</p>
+      <p class="subhead">Rental Rates</p>
+      <div>
+      <h3 class="style2">Please Note:</h3>
+      <ul>
+          <li>Members will receive discounted rental rates for personal functions only.  Non-members rates will apply to all club, business, and other group functions unless it is for a non-profit entity.  No discounts are given for birthday parties.</li>
+          <li>Listed are the most popular combinations of available rooms rentals.  Please contact museum personnel for rates on other combinations.</li>
+      </ul>
+      <br />
+      <h4>Children&rsquo;s Birthday Parties</h4>
+      <p>Option I  $100.00 - $50.00 deposit<br />
+      Lessee provides refreshments, decorations, paper goods, and cleanup<br />
+      Option II  $200.00 - $100.00 deposit<br />
+      Museum provides refreshments, decorations, paper goods, and cleanup</p>
+      <br />
+      <h4>Garden Room Only</h4>
+      <p>Non-members  $75.00  - $35.00 deposit<br />
+      Members  $50.00  - $25.00 deposit<br />
+      Non-profits  $30.00  - $15.00 deposit</p>
+      <br />
+      <h4>Garden Room + Stanley Humphries Room</h4>
+      <p>Non-members  $250.00 - $125.00 deposit<br />
+      Members  $200.00 - $100.00 deposit<br />
+      Non-profits  $150.00 - $  75.00 deposit</p>
+      <br />
+      <h4>Garden Room + 1st Floor Public Exhibit Areas</h4>
+      <p>Non-members  $375.00 - $175.00 deposit<br />
+      Members  $325.00 - $150.00 deposit<br />
+      Non-profits  $275.00 - $125.00 deposit</p>
+      <br />
+      <h4>Garden Room + Stanley Humphries Room + 1st Floor Exhibit Areas + Children&rsquo;s Museum</h4>
+      <p>Non-members  $450.00 - $225.00 deposit<br />
+      Members  $400.00 - $200.00 deposit<br />
+      Non-profits  $350.00 - $175.00 deposit</p>
+      <br />
+      <h4>Setting for Bridal (or Other) Portraits</h4>
+      <p>Non-members  $   75.00<br />
+      Members  $   25.00</p>
+      </div>
+      <p class="subhead">Set Up Hours</p>
+      <p>For events other than birthday parties, the rental rate generally includes two hours for set-up time, up to a four-hour function, and one hour for move-out time.  Birthday parties include a thirty-minute set-up, one hour in the Children&rsquo;s Museum, thirty minutes for refreshments, and a thirty-minute move-out time.  Limited set-up in public areas is allowed on days the Museum is open.  A signed Agreement and deposit of &frac12; the Estimated Agreement Total are required to confirm your date.  Cancellation of the event less than thirty (30) days before the event date will result in forfeiture of the deposit.</p>
+      <p class="subhead">The 10 Steps</p>
+      <div>
+      <p>There are ten important steps to assist you in coordinating your Matagorda County Museum event:</p>
+      <ol>
+          <li>Designate one person from your organization to be your Museum contact and decision-maker.</li>
+          <li>Contact the Events Coordinator, Barbara Smith, at the Museum at 979-245-7502 to check the availability of your requested date.</li>
+          <li>Reserve your tentative date in writing.</li>
+          <li>Confirm the date with a signed Agreement and a deposit of &frac12; the Estimated Agreement Total.</li>
+          <li>Contact the caterer of your choice for food and beverage arrangements.</li>
+          <li>Speak with Barbara Smith regarding table and chair requirements to determine if you need to bring in extras.</li>
+          <li>Arrange for table and chair rental if needed.</li>
+          <li>Arrange for A/V services and equipment if needed.</li>
+          <li>Coordinate all deliveries and pick-up to be made only on your contracted date.</li>
+          <li>Confirm all finalized schedules and arrangements through the Events Coordinator.</li>
+      </ol>
+      <p>&nbsp;</p>
+      </div>
+      <p class="subhead">Alcoholic Beverages</p>
+      <p>All Texas Alcoholic Beverage Commission laws must be followed while on the premises.  Any person under the age of 21 may not be served alcohol under any circumstances.  Alcohol-only events will not be permitted in the Museum.</p>
+      <p class="subhead">Animals</p>
+      <p>With the exception of guide animals, animals are prohibited in the Museum.</p>
+      <p class="subhead">Audio/Visual</p>
+      <p>As the Museum does not provide audio/visual equipment, licensee is responsible for all A/V set-up.  All cords and cables must be visibly secured and approved for safety.</p>
+      <p class="subhead">Banners/Hanging Items</p>
+      <p>Event-related banners may be hung only with prior approval from the Museum.  They may not be hung directly on Museum walls.  No adhesives are allowed.  Signs endorsing political parties or candidates are strictly forbidden on the exterior of the building.</p>
+      <p class="subhead">Billing</p>
+      <p>Full payment is due on rental space at least one (1) business day prior to the event.  Any other charges incurred during the event will be billed to the Licensee.  Payment will be due within 30 days of the invoice date.  Checks may be made payable to the Matagorda County Museum.  Credit Card payments are not accepted at this time.</p>
+      <p class="subhead">Cancellation</p>
+      <p>Cancellation of the event less than thirty (30) days before the contracted date will result in a forfeiture of any deposit.  Events booked into the Museum within thirty days of the event date are not eligible for any refund of the deposit on cancellation.</p>
+      <p class="subhead">Children</p>
+      <p>Children must remain under the direct supervision of an adult at all times while in the Museum, including the Children&rsquo;s Museum and exhibit areas.</p>
+      <p class="subhead">Clean-up</p>
+      <p>Licensee and/or caterer are responsible for gathering and placing all trash in receptacles provided.  Facility rental includes removal of trash bags, but a clean-up fee will be added for excessive trash or if trash is not placed in receptacles.</p>
+      <p class="subhead">Cooking</p>
+      <p>The kitchen is a catering kitchen only and has no stovetop or oven available for cooking.  The microwave is for staff use only.  Therefore, all cooking must be done prior to the food&rsquo;s arrival at the Museum or at cooking stations provided by a caterer.  The Events Coordinator must approve all proposed cooking stations.</p>
+      <p class="subhead">Date Confirmation</p>
+      <p>The Museum will accept reservations for events within one calendar year from the event date.  A signed Agreement and deposit of one-half the Estimated Agreement Total are required to confirm the event date.  The Agreement and deposit are due no later than thirty days prior to the event date.  For any event booked into the Museum within thirty days of the event, a signed Agreement and non-refundable deposit are required immediately.  Until a deposit and signed Agreement are received, the hold will be regarded as tentative.</p>
+      <p class="subhead">Decorations</p>
+      <p>Items such as glitter, confetti, cascarones and streamers are not allowed in the Museum.  Should clean-up of these items be necessary, a fee equal to the amount of the clean-up, repair, or replacement, or $1,000, whichever is greater, will be added to the final bill.  Fee will be determined by the on-site event staff.</p>
+      <p class="subhead">Decorator Services</p>
+      <p>The Museum provides no decorator services (table skirts, tablecloths, backdrops, etc.).  Outside decorating companies may be used with prior coordination with Museum staff.  All arrangements must be approved by Museum staff.  Limited set-up or tear-down will be allowed during normal Museum hours, but only with prior consent of Museum staff.</p>
+      <p class="subhead">Delivery</p>
+      <p>The Museum will not accept any freight or other delivered items on behalf of the Licensee.  Items may not be delivered prior to the contracted event date.  Licensee&rsquo;s representative must be present to accept delivery.</p>
+      <p class="subhead">Discounts</p>
+      <p>The Museum offers discounts for room rentals as a benefit of Museum membership.  Members will receive discounted rental rates, however, for personal functions only.  Non-members rates will apply to all club, business, and other group functions, even if a member makes the arrangements.  The exception is for functions of a non-profit entity, in which case the non-profit discount will apply.  No discounts of any kind are given for birthday parties.</p>
+      <p class="subhead">Dishes</p>
+      <p>The dishes and flatware located in the Museum kitchen are available for rental.  If you have not arranged for the rental of these items, do not use them.  All dirty dishes and flatware must be hand-washed and returned to their shelves after the event.  DO NOT LOAD THEM IN THE DISHWASHER.   A clean-up fee of $100 will be accessed for unwashed dishes.</p>
+      <p class="subhead">Event Information</p>
+      <p>The Museum is not responsible for providing event information to the public.  A telephone number for your organization should be included on all of your event literature and promotions.  Do not include the Museum phone number on literature or invitations.</p>
+      <p class="subhead">Fundraisers</p>
+      <p>All fundraising events must be by invitation only and have prior approval from the Museum.  Fundraisers for political parties, political action committees, or individual candidates are allowed; however, signs on the exterior of the building endorsing any party or candidate are strictly forbidden.</p>
+      <p class="subhead">Invitations</p>
+      <p>Invitations for rental events may not use the name of the Museum except as the designated location of the event.  Use of the Museum&rsquo;s name to promote, advertise, or sell tickets to an event (other than as the location of the event) is prohibited.</p>
+      <p class="subhead">Kitchen</p>
+      <p>The supplies in the Museum kitchen, including but not limited to dry goods, food, ice, and items in the refrigerator, are for Museum-sponsored functions only.  They are not to be used under any circumstances for private events.  If used or taken, Licensee will be charged an amount equal to twice the value of the item missing.</p>
+      <p class="subhead">Loading Dock</p>
+      <p>The dock is primarily for exhibit loading and unloading.  Use of the loading dock, including storage of items on or near the loading dock, is restricted.  Delivery schedules must be arranged in advance with Museum staff.  The Museum does not provide dollies or carts for the loading and unloading of client or contractor equipment or supplies.</p>
+      <p class="subhead">Messages</p>
+      <p>The Museum is not responsible for taking messages for event attendees.  A telephone number for your organization should be included on all of your event literature and promotions.</p>
+      <p class="subhead">Music/Entertainment</p>
+      <p>The Museum does not provide equipment or any set-up of equipment for bands or DJs, such as microphones, electrical tape, and stages.  The Museum reserves the right to prohibit any equipment needing more power than the standard electrical outlet provides or any equipment that the Museum believes is inappropriate.</p>
+      <p class="subhead">Overtime Policy</p>
+      <p>An hourly charge of $300.00 will be added to the final bill for every hour or portion thereof after the contracted end time of the event.  Night functions must conclude by 12 midnight with a move-out to end no later than 1:00 a.m.</p>
+      <p class="subhead">Parking</p>
+      <p>Limited parking is available around the Museum facilities.  Please call Prosperity Bank at 245-4200 to arrange for use of their parking lots after hours.</p>
+      <p class="subhead">Portraits</p>
+      <p>The interior and/or exterior of the museum can be used as a backdrop for bridal and other portraits.  A fee will be charged according to the rental rates in effect at the time of the sitting.</p>
+      <p class="subhead">Posters/Signage</p>
+      <p>Posters and signs are to be mounted on easels or other individual displays.  They may not be affixed in any way to Museum surfaces.  It is the Lessee&rsquo;s responsibility to bring easels.</p>
+      <p class="subhead">Security</p>
+      <p>Security will be provided at the Licensee&rsquo;s expense.  One Museum staff person will remain on the premises during the entire event and clean-up.  If the staff person feels the event is on the verge of control, additional security will be called at the Licensee&rsquo;s expense.  The Museum is not liable for any loss, theft, or vandalism that occurs during Licensee&rsquo;s rental of the facility.</p>
+      <p class="subhead">Smoking</p>
+      <p>The Museum is a smoke-free facility.  The use of tobacco products is forbidden in any part of the Museum.  Ashtrays are located on the rear patio.</p>
+      <p class="subhead">Tables/Chairs</p>
+      <p>The Museum has a limited number of tables and chairs available for use during your event.  Licensee is responsible for rental and delivery arrangements for any additional tables and/or chairs.  Contact the Events Coordinator well in advance to determine your needs.</p>
+      <p class="subhead">Tentative Holds</p>
+      <p>A tentative hold may be placed by calling or submitting a letter, fax, or email to the Events Manager, indicating the date, time, nature of, and estimated attendance at the event.  The hold must be confirmed with a deposit and signed Agreement no later than thirty days before the event date.  If another party is interested in a tentative date, the current holder will have two (2) full business days from contact to submit the deposit and signed Agreement; otherwise, the tentative hold will be released on the third business day.</p>
+      <p class="subhead">Vendors</p>
+      <p>Vendors who do not follow Museum guidelines for load-in/load-out, clean-up, TABC rules, and all other policies will not be allowed to provide service in the Museum for future events.</p>
+      <p class="subhead">Weddings</p>
+      <p>The Museum allows use of its facilities for wedding ceremonies and/or receptions.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
     - 2009-03-03 05:37:13
-    - 2009-03-03 05:37:13
+    - 2009-04-27 00:06:43
   - - "5"
     - Contact Us
     - Barbara
     - |-
-      <h2>Contact Us</h2>
+      <h2>Contact Us&nbsp;</h2>
+      <p>The <span class="style1">Matagorda County Museum</span> and <span class="style1">Children's Museum</span> is a historical museum highlighting local and state history and is available for public visitation as well as private tours for groups and organizations.</p>
       <p>&nbsp;</p>
+      <p>Please call us at<span class="style1"> (979-245-7502)</span> or email us at <a href="mailto:mcma@matagordamuseum.com">mcma@matagordamuseum.com</a></p>
       <p>&nbsp;</p>
-      <p class="style1">The Matagorda County Museum and Children's Museum is a historical museum highlighting local and state history and is available for public visitation as well as private tours for groups and organizations.</p>
-      <p class="style1">&nbsp;</p>
-      <p class="style1"><small>&nbsp;<br />
-      &nbsp;</small></p>
-      <p style="width: 535px; height: 36px">Please call us at<span class="style1"> (979-245-7502)</span> or</p>
-      <p>email us at <a href="mailto:mcma@matagordamuseum.com">mcma@matagordamuseum.com</a></p>
+      <p>The <span class="style1">Matagorda County Museum Annex</span> houses the archives and collections of the Matagorda County Museum.&nbsp; We have a vast collection of maps, photographs, local school annuals, tax and probate records and many more materials for public research.</p>
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p class="style1" style="width: 535px; height: 53px"><small><em>The Matagorda County Museum Annex houses the archives and collections of the Matagorda County Museum.&nbsp; We have a vast collection of maps, photographs, local school annuals, tax and probate records and many more materials for public research.</em></small></p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p><small><em>&nbsp;&nbsp;</em></small></p>
-      <p style="width: 463px; height: 41px">To contact the Annex for Research and Collections times and information call</p>
-      <p><span class="style1">(979-245-4443)<br />
-      </span>&nbsp;<br />
-      &nbsp;</p>
-      <p>email the annex at <a href="mailto:archives@matagordamuseum.com">archives@matagordamuseum.com</a></p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <h2><q><span id="1236106685662S" style="display: none">&nbsp;</span></q></h2>
+      <p>To contact the Annex for Research and Collections times and information call <span class="style1">(979-245-4443) </span>or email the annex at <a href="mailto:archives@matagordamuseum.com">archives@matagordamuseum.com</a></p>
     - 2009-03-03 05:39:57
-    - 2009-03-06 18:49:42
+    - 2009-04-27 00:24:28
   - - "6"
     - Welcome Page
     - Barbara
@@ -439,3 +549,90 @@ pages:
       <p><strong>Scheduled Tours--$2.00 per person--Teachers, Chaperones, Bus Drivers--Free</strong></p>
     - 2009-03-03 06:47:32
     - 2009-03-12 20:07:44
+  - - "7"
+    - Links to Sites we Like
+    - Donnie
+    - |-
+      <h2>Links to Sites we Like</h2>
+      <p>City of Bay City - <a href="http://www.cityofbaycity.org/">www.cityofbaycity.org</a></p>
+      <p>Matagorda County - <a href="http://www.co.matagorda.tx.us/ips/cms">www.co.matagorda.tx.us</a></p>
+      <p>Matagorda County Visitors Guide 2009 - <a href="http://www.visitmatagorda.com/">www.visitmatagorda.com</a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    - 2009-04-26 23:30:24
+    - 2009-04-26 23:39:26
+
+--- 
+photos: 
+  columns: 
+  - id
+  - photo_file_name
+  - photo_content_type
+  - photo_file_size
+  - page_id
+  - caption
+  - photo_updated_at
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - IMG_1527.JPG
+    - image/jpeg
+    - "3320897"
+    - "5"
+    - Idyllic scene, Riverside Park, Downtown Whitefish
+    - 2009-03-03 04:32:17
+    - 2009-03-03 04:32:27
+    - 2009-03-04 04:25:12
+  - - "2"
+    - DSC00023.JPG
+    - image/jpeg
+    - "2138424"
+    - 
+    - Snowghosts in Whitefish
+    - 2009-03-03 04:37:15
+    - 2009-03-03 04:37:22
+    - 2009-03-03 04:37:22
+  - - "3"
+    - 20070408_Whitefish_Beach_Landscape.jpg
+    - image/jpeg
+    - "155425"
+    - "1"
+    - Whitefish Beach Landscape
+    - 2009-03-03 05:12:56
+    - 2009-03-03 05:12:59
+    - 2009-03-03 05:12:59
+  - - "4"
+    - IMG_2464.JPG
+    - image/jpeg
+    - "2926745"
+    - "6"
+    - Family Photo
+    - 2009-03-03 07:22:13
+    - 2009-03-03 07:22:21
+    - 2009-03-03 07:22:21
+
+--- 
+users: 
+  columns: 
+  - id
+  - login
+  - name
+  - email
+  - crypted_password
+  - salt
+  - created_at
+  - updated_at
+  - remember_token
+  - remember_token_expires_at
+  records: 
+  - - "1"
+    - dhc02
+    - ""
+    - dhclapp@gmail.com
+    - 1b9f1ebf4c3dafd3151de9b807b64edd9c415b27
+    - da6f21a020e967e34716c63a7a78b669c0cf3401
+    - 2009-04-26 22:40:18
+    - 2009-04-26 22:40:18
+    - 
+    - 
