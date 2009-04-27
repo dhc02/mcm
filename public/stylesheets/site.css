@@ -317,6 +317,10 @@ th, td {
   text-align; center;
 }
 
+#user-bar-greeting, #user-bar-action {
+  background-color: lightgray;
+}
+
 /* #footer2_  a{
   background: no-repeat;
   color: #333333;
