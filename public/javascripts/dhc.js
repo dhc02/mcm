@@ -14,6 +14,10 @@ hs.showCredits = false;
 
 jQuery(document).ready(function() {
   
+  // hide flash messages after 2 seconds
+  $("#flash div").animate({opacity: 1.0}, 2000).slideUp("slow");
+  
+  // add highslide to all images that aren't already wrapped in a link (to avoid double-highsliding)
   $("img").each(function (){
     if ($(this).parent().is("a") != true) {
       var href = $(this).attr("src");
@@ -21,6 +25,8 @@ jQuery(document).ready(function() {
       $(this).wrap("<a rel='highslide' class='highslide' href='" + replaced + "' ></a>");
     }
   });
+  
+  // add expand/contract functionality to p.subhead sections
   var link = "<a class='plus' href='#'>[+/-]</a>";
   $("p.subhead").next().hide("slow").end().append(link);
   $("a.plus").click(function (){
