@@ -144,10 +144,10 @@ events:
     - Barbara
     - "2009-10-03"
     - "2009-10-31"
-    - "14:24:01"
-    - "22:00:01"
+    - 2000-01-01 20:24:01
+    - 2000-01-02 04:00:01
     - 2009-03-27 20:13:26
-    - 2009-03-27 20:13:26
+    - 2009-06-25 19:19:25
     - <p>Gourmet Guys Spend an Evening in the Orient</p>
     - Fundraiser
   - - "8"
@@ -161,85 +161,54 @@ events:
     - true
     - Barbara
     - Barbara
-    - "2009-04-04"
+    - "2009-11-19"
     - "2010-01-15"
-    - "12:05:01"
-    - "11:01:00"
+    - 2000-01-01 18:05:01
+    - 2000-01-02 05:01:01
     - 2009-04-04 17:10:11
-    - 2009-04-04 17:11:31
+    - 2009-06-25 19:17:22
     - <p>Experience the beauty of the Holiday Season!</p>
     - Exhibit
-  - - "9"
-    - Gourmet Guys
+  - - "10"
+    - The Art of India
     - |-
-      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gourmet Guys</h2>
-      <p style="width: 520px; height: 19px">&nbsp;</p>
-      <p style="width: 520px; height: 60px">The first Saturday in October the Museum will be transformed into Oriental Splendor as the Gourmet Guys spend an Evening in the Orient.&nbsp; Gourmet&nbsp;fare will be prepared by our 20+ gourmet cooks which you may sample to your heart's delight, along with punch, wine and Margaritas, all for one low ticket price.</p>
-      <p style="width: 520px; height: 29px">&nbsp;</p>
-      <p style="width: 520px; height: 60px">This fundraiser also includes an excellent Silent Auction, so be sure to bring your checkbook or credit cards.&nbsp; The monies raised from this event go towards providing exceptional educational and fun exhibits and programs that enable the Museum to&nbsp;fulfill its mission statement.</p>
-      <p style="width: 520px; height: 17px">&nbsp;</p>
-      <p style="width: 520px; height: 59px">&nbsp;</p>
+      <p><strong>THE ART OF INDIA</strong></p>
+      <p>&nbsp;</p>
+      <p style="width: 512px; height: 121px">The Matagorda County Museum, along with Houston, Sugar Land and Bay City artists, is pleased to present a special exhibit spotlighting Indian art and culture through paintings and sculpture.&nbsp; The majority of the work was inspired by the wall and ceiling paintings of the Ajanta Caves of India.&nbsp;</p>
+      <p style="width: 512px; height: 60px">The public is cordially invited to the Exhibit Opening on Saturday, July 18, from 5:00-7:00 p. m.&nbsp; Refreshments will be served.</p>
     - true
     - Barbara
+    - ""
+    - "2009-07-18"
+    - "2009-08-25"
+    - 2000-01-02 00:29:01
+    - 2000-01-02 00:29:01
+    - 2009-06-25 19:08:25
+    - 2009-06-25 19:13:14
+    - |-
+      <p><strong>The Art of India</strong></p>
+      <p>Experience the beauty and culture that is unique to India through paintings and sculpture from Houston, Sugar Land and Bay City artists.</p>
+    - Art Exhibit
+  - - "12"
+    - Festival of Trees
+    - |-
+      <p><strong>Festival of Trees</strong></p>
+      <p style="width: 513px; height: 130px">Each year the Museum hosts &quot;Festival of Trees&quot;, an exhibit of over 50 trees decorated by area clubs, organizations and individuals.&nbsp; The museum supplies the tree and lights and you decorate according to your theme.&nbsp; If you or your group is interested, please contact the museum and you will be sent a form.&nbsp; We start in mid-October to get ready for our opening the Thursday before Thanksgiving, so start planning now.</p>
+      <p style="width: 513px; height: 80px">The exhibit is free to the public on the Thursday before Thanksgiving, which is &quot;Christmas Around the Square&quot; when all the downtown shops are open late to get everyone into the Holiday Spirit.&nbsp; This free admission is our gift to the public.</p>
+      <p>&nbsp;</p>
+    - true
     - Barbara
-    - "2009-04-08"
-    - "2009-10-15"
-    - "14:00:01"
-    - "12:01:01"
-    - 2009-04-08 20:24:39
-    - 2009-04-08 20:50:50
-    - <p>Spend and Evening in the Orient with the Gourmet Guys</p>
-    - Fundraiser
-
---- 
-event_photos: 
-  columns: 
-  - id
-  - photo_file_name
-  - photo_content_type
-  - photo_file_size
-  - event_id
-  - caption
-  - created_at
-  - updated_at
-  - photo_updated_at
-  records: 
-  - - "1"
-    - IMG_2790.JPG
-    - image/jpeg
-    - "2943254"
-    - 
-    - 
-    - 2009-03-02 01:47:04
-    - 2009-03-02 01:47:04
-    - 2009-03-02 01:46:52
-  - - "2"
-    - 20061219-Pams-Cam-15.jpg
-    - image/jpeg
-    - "403826"
-    - "1"
-    - Donnie looking like an idiot
-    - 2009-03-02 06:33:49
-    - 2009-03-03 03:36:05
-    - 2009-03-02 06:33:39
-  - - "3"
-    - northern_sign.jpg
-    - image/jpeg
-    - "47109"
-    - "3"
-    - "\"Big Mountain\" in the Great Northern Bar"
-    - 2009-03-02 06:34:30
-    - 2009-03-03 07:57:22
-    - 2009-03-02 06:34:28
-  - - "4"
-    - image001.jpg
-    - image/jpeg
-    - "2155"
-    - "5"
-    - Test image
-    - 2009-03-03 08:42:43
-    - 2009-03-03 08:42:43
-    - 2009-03-03 08:42:42
+    - ""
+    - "2009-11-19"
+    - "2009-01-01"
+    - 2000-01-02 04:01:01
+    - 2000-01-01 07:23:00
+    - 2009-06-25 19:37:07
+    - 2009-06-25 19:38:52
+    - |-
+      <p><strong>Festival of Trees</strong></p>
+      <p style="width: 495px; height: 40px">Come and enjoy our &quot;Winter Wonderland&quot;&nbsp; with over 50 trees decorated by area clubs, organizations and individuals.</p>
+    - Exhibit
 
 --- 
 pages: 
@@ -253,127 +222,90 @@ pages:
   records: 
   - - "1"
     - Photos
-    - Barbara
+    - Donnie
     - |-
       <h2>Photos</h2>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       <p>Construction of this building began in the spring of 1917 and was opened to the public on May 15, 1918 as a Federal Post Office. The Matagorda County Museum Association, formed in 1963, had outgrown its facility and purchased the building in 1990.&nbsp; After extensive renovation it was reopened to the public in 1992.&nbsp; Much care was used in retaining as many of the elements of the original building as possible while adapting it to its new purpose.</p>
       <p>&nbsp;</p>
     - 2009-03-03 04:47:09
-    - 2009-04-27 02:24:52
+    - 2009-04-27 17:56:58
   - - "2"
     - Children's Museum
-    - Barbara
+    - Donnie
     - |-
-      <h2>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
-      &nbsp;&nbsp;&nbsp;
-      <div style="margin: 0in 0in 0pt">&nbsp;&nbsp; &quot;OUR TOWN&quot; Children's Museum</div>
-      <div style="margin: 0in 0in 0pt">&nbsp;</div>
-      <div style="margin: 0in 0in 0pt">&nbsp;</div>
-      <div style="margin: 0in 0in 0pt">&nbsp;<img height="113" alt="A Young Cowboy in the Corral" width="150" src="/uploads/Image/Cowboy Braden 013.jpg" />&nbsp;<img height="113" alt="Boot Trouble " width="150" src="/uploads/Image/Braden's 4th b-day 008.jpg" />&nbsp;<img height="113" alt="May I Pour You a Root Beer?" width="150" src="/uploads/Image/Christopher in CM 004.jpg" /></div>
-      &nbsp;</h2>
-      <p class="style1">Children Returning to Yesteryear in the Children's Museum</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p class="MsoNormal" style="margin: 0in 0in 7.5pt; width: 477px; line-height: 18pt; height: 420px; mso-outline-level: 2"><span calisto="" new="" style="font-size: 18pt; color: #336699; font-family: ">The Matagorda County Children&rsquo;s Museum is a treat for all ages. Built to represent an 1890-1910 small town, it is fully furnished and completely hands-on.&nbsp;You can leave your horse in the O.K. Corral, go to school in the one-room schoolhouse, visit the toy shop full of wind-up toys, shop in the General Store and take your purchases home to the prairie house after mailing your letters at the Post Office. The young cowboys might&nbsp;have a shave and haircut at the barber shop&nbsp;while the young ladies&nbsp;get all gussied up with clothing from the dress shop to enjoy a night out at the Opera House. Just make sure you don&rsquo;t rob the bank and get thrown in the hoose-gow (that's jail to you city slickers)!&nbsp;<o:p></o:p></span></p>
-      <p class="MsoNormal" style="margin: 0in 0in 10pt"><span style="font-size: 18pt; line-height: 115%"><o:p><font face="Calibri" color="#000000">&nbsp;</font></o:p></span></p>
-      <h2><span style="color: #ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Children's Museum is the&nbsp;</span></h2>
-      <h2><span style="color: #ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perfect Place for a&nbsp;Birthday Party!</span></h2>
-      <h3><span style="color: #ff0000">&nbsp;</span></h3>
-      <p class="MsoHeading8" style="margin: 0in 0in 0pt"><strong><font face="Curlz MT" color="#009900" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Option I</font></strong></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><span><font size="3"><strong>(You do some of the work)</strong><o:p></o:p></font></span></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><font size="3"><b><span curlz="" style="color: blue; font-family: ">$100.00</span></b><b><span curlz="" style="font-family: "><o:p></o:p></span></b></font></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="font-family: "><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3">We Provide:</font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3"><span style="color: #0000ff">&nbsp;&nbsp;&nbsp;&nbsp; Admission for up to 20 children</span></font></span></b></p>
-      <h3><b><span curlz="" style="color: red; font-family: "><font size="3"><span style="color: #0000ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Children's Museum T-Shirt for the birthday boy or </span></font></span></b><b><span curlz="" style="color: red; font-family: "><font size="3"><span style="color: #0000ff">girl</span></font></span></b></h3>
-      <h3><b><span curlz="" style="color: red; font-family: "><font size="3"><span style="color: #0000ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Goody bags for all the guests</span></font></span></b></h3>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: lime; font-family: "><font size="3">&nbsp;<o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3">You Provide:</font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 34px; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3"><span style="color: #339966"><span style="color: #ff0000">Refreshments </span></span></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 34px; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3"><span style="color: #339966"><span style="color: #ff0000">Decorations--if you want them</span></span></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 34px; text-align: center"><b><span curlz="" style="color: #009900; font-family: "><font size="3"><span style="color: #339966"><span style="color: #ff0000">Paper goods</span></span></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l2 level1 lfo2">&nbsp;</p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l2 level1 lfo2">&nbsp;<strong><font face="Curlz MT" color="#009900" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></strong><strong><font face="Curlz MT" color="#009900" size="5">Option II</font></strong></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><span><font size="3"><strong>(We do all the work!!)</strong><o:p></o:p></font></span></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.25in"><b><span curlz="" style="color: blue; font-family: "><font size="3">&nbsp;</font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center"><font size="3"><b><span curlz="" style="color: blue; font-family: ">$200.00</span></b><b><span curlz="" style="font-family: "><o:p></o:p></span></b></font></p>
-      <h3><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Admission for up to 20 Children</span></span></h3>
-      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Children's Museum T-Shirt for the Birthday boy or girl</span></span></p>
-      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goody Bags for all the guests</span></span></p>
-      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Decorations</span></span></p>
-      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Refreshments--Cake, Punch &amp; Ice Cream</span></span></p>
-      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paper Goods</span></span></p>
-      <p><span style="color: #ff00ff"><span style="color: #3366ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clean-up</span></span></p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.25in"><b><span curlz="" style="color: blue; font-family: "><font size="3">&nbsp;<o:p></o:p></font></span></b></p>
-      <p class="MsoBodyText3" style="margin: 0in 0in 0pt"><span style="color: #ff6600"><strong><font size="3"><font face="Curlz MT">Birthday parties can also be scheduled after school, Sunday afternoon, staff permitting, and on weekday mornings during the summer.<o:p></o:p></font></font></strong></span></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.25in"><o:p></o:p></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><span curlz="" style="font-family: "><strong><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></strong></span></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 536px; height: 32px; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3">Call<o:p></o:p></font></span></b></p>
-      <p align="center" style="margin: 0in 0in 0pt; width: 537px; height: 61px; text-align: center"><b><span curlz="" style="font-size: 26pt; color: red; font-family: ">979-245-7502</span></b></p>
-      <p align="center" style="margin: 0in 0in 0pt; width: 537px; height: 79px; text-align: center"><font size="3"><b><span curlz="" style="color: red; font-family: ">for party reservations</span></b><b><span curlz="" style="font-family: "><o:p></o:p></span></b></font></p>
-      <p>&nbsp;</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span wingdings="" style="color: #6600ff; font-family: "><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal"><img alt="Children Enjoying a Birthday Party" style="width: 256px; height: 210px" src="/uploads/Image/Birthday Photos 014.jpg" /></span></span></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><font size="3">&nbsp;&nbsp; </font></span></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><b><span curlz="" style="color: #6600ff; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4">&nbsp;</p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><span wingdings="" style="color: #6600ff; font-family: "><span new="" times="" style="font-weight: normal; font-size: 7pt; line-height: normal; font-style: normal; font-variant: normal">&nbsp;&nbsp;&nbsp; </span></span></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><b><span curlz="" style="color: #6600ff; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt 0.5in; text-indent: -0.25in; tab-stops: list .5in; mso-list: l0 level1 lfo4"><b><span curlz="" style="color: #6600ff; font-family: "><font size="3"><o:p></o:p></font></span></b><span style="color: #ff6600"><strong><font size="3"><font face="Curlz MT"><o:p></o:p></font></font></strong></span></p>
-      <p class="MsoNormal" style="margin: 0in 0in 0pt"><span curlz="" style="font-family: "><strong><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></strong></span></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 29px; text-align: center">&nbsp;</p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 29px; text-align: center"><b><span curlz="" style="color: red; font-family: "><font size="3"><o:p></o:p></font></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 44px; text-align: center">&nbsp;</p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 44px; text-align: center">&nbsp;</p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 535px; height: 44px; text-align: center"><b><span curlz="" style="font-size: 26pt; color: red; font-family: "><o:p></o:p></span></b></p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;&nbsp;</p>
+      <h2>&quot;OUR TOWN&quot; Children's Museum</h2>
+      <p><br />
+      <img width="140" height="105" alt="" src="/uploads/Image/Birthday Photos 014.jpg" /> &nbsp;&nbsp; <img width="140" height="105" alt="" src="/uploads/Image/Braden's 4th b-day 008.jpg" />&nbsp; &nbsp; <img width="140" height="105" alt="" src="/uploads/Image/Christopher in CM 004.jpg" /></p>
+      <p><span class="style1">Children Returning to Yesteryear in the Children's Museum</span><br />
+      <br />
+      The Matagorda County Children&rsquo;s Museum is a treat for all ages. Built to represent an 1890-1910 small town, it is fully furnished and completely hands-on. You can leave your horse in the O.K. Corral, go to school in the one-room schoolhouse, visit the toy shop full of wind-up toys, shop in the General Store and take your purchases home to the prairie house after mailing your letters at the Post Office. The young cowboys might have a shave and haircut at the barber shop while the young ladies get all gussied up with clothing from the dress shop to enjoy a night out at the Opera House. Just make sure you don&rsquo;t rob the bank and get thrown in the hoose-gow (that's jail to you city slickers)!<br />
+      &nbsp;</p>
+      <h3>The Children's Museum is the Perfect Place for a Birthday Party!</h3>
+      <p><br />
+      <strong>Option I </strong>(You do some of the work)<br />
+      $100.00<br />
+      <br />
+      <strong>Includes:</strong></p>
+      <ul>
+          <li>Admission for up to 20 children</li>
+          <li>A Children's Museum T-Shirt for the birthday boy or girl</li>
+          <li>Goody bags for all the guests</li>
+      </ul>
+      <p><br />
+      <strong>You Provide:</strong></p>
+      <ul>
+          <li>Refreshments</li>
+          <li>Decorations</li>
+          <li>Paper goods</li>
+      </ul>
+      <p><br />
+      <br />
+      <strong>Option II</strong> (We do all the work!!)<br />
+      $200.00<br />
+      <br />
+      <strong>Includes:</strong></p>
+      <ul>
+          <li>Admission for up to 20 Children</li>
+          <li>A Children's Museum T-Shirt for the Birthday boy or girl</li>
+          <li>Goody Bags for all the guests</li>
+          <li>Decorations</li>
+          <li>Refreshments: Cake, Punch &amp; Ice Cream</li>
+          <li>Paper Goods</li>
+          <li>Clean-up</li>
+      </ul>
+      <p>&nbsp;<br />
+      <img hspace="10" align="left" src="/uploads/Image/Cowboy Braden 013.jpg" style="width: 213px; height: 160px;" alt="" /><span class="style1">Birthday parties can also be scheduled after school, Sunday afternoon, staff permitting, and on weekday mornings during the summer.</span>&nbsp;<strong><br />
+      </strong></p>
+      <h2><strong>Call 979-245-7502 today to reserve your party!</strong></h2>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; text-align: center">&nbsp;</p>
-      <p>&nbsp;</p>
-      <p style="width: 73px; height: 7px">&nbsp;</p>
-      <p class="MsoNormal" align="center" style="margin: 0in 0in 0pt; width: 503px; height: 20px; text-align: center"><b><span style="font-family: 'Curlz MT'"><font size="3"><font color="#000000">&nbsp;<o:p></o:p></font></font></span></b></p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
     - 2009-03-03 05:28:22
-    - 2009-03-18 19:15:54
+    - 2009-07-03 02:47:21
   - - "3"
     - Current Exhibits
-    - Barbara
+    - Donnie
     - |-
       <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MUSEUM EXHIBITS &amp; EVENTS</h2>
       <p>&nbsp;</p>
-      <p><img height="113" alt="Chamber Mixer" width="150" src="/uploads/Image/Chamber Mixer 2008 006.jpg" />&nbsp;&nbsp; <img height="113" alt="LaBelle Cannon" width="150" src="/uploads/Image/LaBelle 003.jpg" />&nbsp;&nbsp; <img height="113" alt="1800's Chuckwagon" width="150" src="/uploads/Image/Miscellaneous 044.jpg" /></p>
+      <p><img height="113" width="150" alt="Chamber Mixer" src="/uploads/Image/Chamber Mixer 2008 006.jpg" />&nbsp;&nbsp; <img height="113" width="150" alt="LaBelle Cannon" src="/uploads/Image/LaBelle 003.jpg" />&nbsp;&nbsp; <img height="113" width="150" alt="1800's Chuckwagon" src="/uploads/Image/Miscellaneous 044.jpg" /></p>
       <p>&nbsp;</p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-      <p><img height="113" alt="Karankawa Indians" width="150" src="/uploads/Image/Miscellaneous 089.jpg" />&nbsp;&nbsp;&nbsp;<img height="113" alt="Scene from the Gusman Gallery" width="150" src="/uploads/Image/Miscellaneous 066.jpg" />&nbsp;&nbsp;&nbsp;<img height="113" alt="Fossil Display" width="150" src="/uploads/Image/Miscellaneous 083.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p><img height="113" width="150" alt="Karankawa Indians" src="/uploads/Image/Miscellaneous 089.jpg" />&nbsp;&nbsp;&nbsp;<img height="113" width="150" alt="Scene from the Gusman Gallery" src="/uploads/Image/Miscellaneous 066.jpg" />&nbsp;&nbsp;&nbsp;<img height="113" width="150" alt="Fossil Display" src="/uploads/Image/Miscellaneous 083.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       <p>&nbsp;</p>
-      <p>&nbsp;<img height="113" alt="Annual Quilt Show" width="150" src="/uploads/Image/Quilt 2009 Pics 007.jpg" />&nbsp;&nbsp;&nbsp;&nbsp; <img height="113" alt="Gourmet Guys Fun" width="150" src="/uploads/Image/Gourmet Guys 2005 046.jpg" />&nbsp;&nbsp; <img height="113" alt="Festival of Trees" width="150" src="/uploads/Image/Festival of Trees2004 019.jpg" /></p>
+      <p><img height="113" width="150" alt="Annual Quilt Show" src="/uploads/Image/Quilt 2009 Pics 007.jpg" />&nbsp;&nbsp; <img height="113" width="150" alt="Gourmet Guys Fun" src="/uploads/Image/Gourmet Guys 2005 046.jpg" />&nbsp;&nbsp; <img height="113" width="150" alt="Festival of Trees" src="/uploads/Image/Festival of Trees2004 019.jpg" /></p>
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>Blah <span class="style1">Blah</span> Blah</p>
     - 2009-03-03 05:33:05
-    - 2009-04-04 16:10:51
+    - 2009-04-27 03:21:17
   - - "4"
     - Rent Our Facilities
     - Donnie
@@ -509,7 +441,7 @@ pages:
     - 2009-04-27 00:06:43
   - - "5"
     - Contact Us
-    - Barbara
+    - Donnie
     - |-
       <h2>Contact Us&nbsp;</h2>
       <p>The <span class="style1">Matagorda County Museum</span> and <span class="style1">Children's Museum</span> is a historical museum highlighting local and state history and is available for public visitation as well as private tours for groups and organizations.</p>
@@ -520,7 +452,7 @@ pages:
       <p>&nbsp;</p>
       <p>To contact the Annex for Research and Collections times and information call <span class="style1">(979-245-4443) </span>or email the annex at <a href="mailto:archives@matagordamuseum.com">archives@matagordamuseum.com</a></p>
     - 2009-03-03 05:39:57
-    - 2009-04-27 00:24:28
+    - 2009-04-27 17:57:19
   - - "6"
     - Welcome Page
     - Barbara
@@ -625,6 +557,15 @@ photos:
     - 2009-04-27 02:30:22
     - 2009-04-27 02:30:25
     - 2009-04-27 02:30:25
+  - - "11"
+    - Chamber_Mixer_2008_006.jpg
+    - image/jpeg
+    - "1056580"
+    - "4"
+    - Bay City Chamber of Commerce Mixer - 2008
+    - 2009-07-10 22:57:30
+    - 2009-07-10 22:57:36
+    - 2009-07-10 22:57:36
 
 --- 
 users: 
