@@ -13,6 +13,8 @@ class EventsController < ApplicationController
       format.xml  { render :xml => @events }
     end
   end
+  
+  # Random text to test Cloud9 <--> Github integration
 
   # GET /events/1
   # GET /events/1.xml
