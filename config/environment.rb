@@ -1,4 +1,6 @@
 RAILS_GEM_VERSION = '2.1'
+RAILS_ENV = 'production'
+ENV["GEM_PATH"] = "/home/dhc02/.gem" + ":/usr/lib/ruby/gems/1.8"
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
