@@ -10,7 +10,7 @@ class Event < ActiveRecord::Base
   has_many :event_photos
   
   def self.find_future
-    self.find(:all, :conditions => [ "end_date >= ?", Date.today.to_s], :limit => 4, :order => "start_date")
+    self.find(:all, :conditions => [ "end_date >= ?", Date.today.to_s], :limit => 6, :order => "start_date")
   end 
   
 end
